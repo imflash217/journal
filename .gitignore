@@ -1,0 +1,7 @@
+# Build and intermediate files.
+*.pyc
+_cache/
+.sass-cache
+.dart_tool
+.idea
+.packages

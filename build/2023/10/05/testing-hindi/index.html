@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato&family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="//fonts.googleapis.com/css?family=Source+Code+Pro|PT+Serif:400,700,400italic,700italic"
+    rel="stylesheet"
+    type="text/css"
+  />
+
+  <!-- Tell mobile browsers we're optimized for them and they don't need to
+         crop the viewport. -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS 2.0"
+    href="/rss.xml"
+  />
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom 1.0"
+    href="/atom.xml"
+  />
+  <link rel="stylesheet" href="/style.css" type="text/css" />
+
+  <link
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
+
+  <title>
+    Hash Tables &ndash; journal.stuffwithstuff.com
+  </title>
+</head>
+
+  <body>
+    <div class="column">
+<article>
+<header>
+<h1>
+  <a href="/2023/10/05/testing-hindi/" rel="bookmark"
+     title="Permanent Link to Hash Tables">
+    Hash Tables
+  </a>
+</h1>
+
+  <a class="older" href="/2023/10/04/testing-dart-journal/"
+     title="Older Post &ldquo;Learning Journal Build via Dart&rdquo;">&#8617;</a>
+
+
+  <a class="newer" href="/2023/10/06/resume/"
+     title="Newer Post &ldquo;<strong>My Journey</strong> till now!&rdquo;">&#8618;</a>
+
+</header>
+<h4><a href="/archive">October 05, 2023</a>
+    <span class="tags"><a href="/category/code">code</a> <a href="/category/data-structures">data-structures</a> <a href="/category/journal">journal</a></span>
+</h4>
+
+<!-- ---
+hide:
+  - navigation # Hide navigation
+  - toc        # Hide table of contents
+--- --><!-- ######################################################################################################### -->
+
+<h2>Definition</h2>
+
+<p><strong>Hash Table</strong> is a data structure which stores data in an <strong>associative manner</strong> (i.e. in a (key, value) pair).</p>
+
+<ul>
+<li>In a hash table, the data is stored in an array format where each data-value has its own unique index-value. Due to this feature, the access to data becomes very fast if we know the desired index-value; irrespective of the size of the data.</li>
+<li>Hash Table uses an array as a storage medium and uses <strong>hashing</strong> to generate the index where an element is to be inserted or to be located from.</li>
+</ul><!-- ######################################################################################################### -->
+
+<h2>Hashing</h2>
+
+<p><img src="https://www.tutorialspoint.com/data_structures_algorithms/images/hash_function.jpg" alt="Hashing" /></p>
+
+<p>Hashing is a technique to <strong>map a range of keys into a range of indexes</strong> (usually of an array).</p>
+
+<ul>
+<li>A very generic hashing function is <strong>modulo operator</strong> (<code>x % y</code>).</li>
+</ul><!-- ######################################################################################################### -->
+
+<h3>Example</h3>
+
+<ul>
+<li>Consider a hash-table of <code>size=20</code></li>
+<li>Following (<code>key</code>, <code>value</code>) pairs to be stored using the hash-table</li>
+</ul>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="i">dict</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="n">9</span><span class="p">:</span> <span class="n">20</span><span class="p">,</span>
+    <span class="n">12</span><span class="p">:</span> <span class="n">70</span><span class="p">,</span>
+    <span class="n">42</span><span class="p">:</span> <span class="n">80</span><span class="p">,</span>
+    <span class="n">7</span><span class="p">:</span> <span class="n">25</span><span class="p">,</span>
+    <span class="n">2</span><span class="p">:</span> <span class="n">21</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div>
+<div class="highlight"><pre><code class="language-text" data-lang="text"><span></span>| Key | Hash           | Array index |
+| --- | -------------- | ----------- |
+| 9   | `9 % 20 = 9`   | `9`         |
+| 12  | `12 % 20 = 12` | `12`        |
+| 42  | `42 % 20 = 2`  | `2`         |
+| 7   | `7 % 20 = 7`   | `7`         |
+| 2   | `2 % 20 = 2`   | `2`         |
+</code></pre></div>
+<p>As we can see that a given <strong>hashing function</strong> can create the same hash-value from two different keys. (in above table keys <code>42</code> and <code>2</code>). So we use <strong><code>Linear Probing</code></strong> to resolve conflicts.</p><!-- ######################################################################################################### -->
+
+<h2>Linear Probing</h2>
+
+<p>???+ note &ldquo;Linear Probing&rdquo;
+<strong>Linear Probing</strong> is a method used to resolve conflicts in the hash-value. It may happen that the hash-function creates an already used index of the array. In such case we search the next empty location of the array <strong>by looking into the next cell until we find an empty cell</strong></p>
+<pre><code>So in our above example, the updated hash-table would map `key = 2` to `index = 3`:
+
+| Key | Hash           | Array index |
+| --- | -------------- | ----------- |
+| 9   | `9 % 20 = 9`   | `9`         |
+| 12  | `12 % 20 = 12` | `12`        |
+| 42  | `42 % 20 = 2`  | `2`         |
+| 7   | `7 % 20 = 7`   | `7`         |
+| 2   | `2 % 20 = 2`   | **`3`**     |
+</code></pre>
+
+<h2>Search</h2>
+
+<p>???+ success &ldquo;search() method for hash-table&rdquo;
+<strong><code>Search</code></strong></p>
+
+<h2>Delete</h2>
+
+<p>???+ danger &ldquo;delete() method for hash-table&rdquo;
+<strong><code>Delete</code></strong></p><!-- ######################################################################################################### -->
+
+<h2>Python Implementation</h2>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">--</span><span class="n">8</span><span class="o">&lt;--</span> <span class="s">&quot;../ProgrammingContests/ctci/hashtable.py&quot;</span>
+</code></pre></div><!-- ######################################################################################################### -->
+
+<h2>References</h2><!-- ######################################################################################################### -->
+<div class="social">
+  <a
+    href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/05/testing-hindi//"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-reddit-square"></i>
+  </a>
+
+  <a
+    href="//news.ycombinator.com/submitlink?u=https://journal.stuffwithstuff.com/2023/10/05/testing-hindi//&amp;t=Hash Tables"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-hacker-news"></i>
+  </a>
+
+  <a
+    href="//twitter.com/share?url=https://journal.stuffwithstuff.com/2023/10/05/testing-hindi/&amp;text=%22Hash Tables%22%20%40munificentbob"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-twitter-square"></i>
+  </a>
+
+  <a
+    href="//www.facebook.com/share.php?u=https://journal.stuffwithstuff.com/2023/10/05/testing-hindi/"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-facebook-square"></i>
+  </a>
+
+  <a href="/rss.xml">
+    <i class="fa fa-lg fa-rss-square"></i>
+  </a>
+</div>
+
+
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'journal-stuffwithstuff';
+        var disqus_url = "https://journal.stuffwithstuff.com/2023/10/05/testing-hindi/";
+
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+
+</article>
+
+
+<nav>
+  <div class="nav-first">
+    <!-- <a href="/"><img src="/image/dogshot_square.jpg" class="bob"></a> -->
+    <a href="/"><img src="/image/vinay_2019.png" class="bob" /></a>
+
+    <p>
+      Hi! I'm <strong>Vinay Kumar</strong>.
+      <!-- I wrote
+      <a href="https://gameprogrammingpatterns.com/"
+        ><strong>Game Programming Patterns</strong></a
+      >
+      and
+      <a href="https://craftinginterpreters.com"
+        ><strong>Crafting Interpreters</strong></a
+      >. -->
+    </p>
+    <p>
+      You can email me at <code>imflash217@gmail.com</code> or follow me on
+      GitHub at
+      <a href="https://github.com/imflash217"><code>@imflash217</code></a
+      >.
+    </p>
+
+    <h2>Elsewhere</h2>
+    <ul>
+      <li>Code at <a href="https://github.com/munificent">GitHub</a></li>
+      <li>Tweets at <a href="https://twitter.com/munificentbob">Twitter</a></li>
+      <li>Music at <a href="https://www.youtube.com/@tinywires">YouTube</a></li>
+      <li>Photos at <a href="https://500px.com/munificent">500px</a></li>
+      <li>
+        Photos at <a href="https://www.flickr.com/photos/bobisbob/">Flickr</a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav-second">
+    <h2>Categories</h2>
+    <ul>
+      <li>
+        <a href="/category/code">code</a>
+        <small class="post-count">4</small>
+      </li>
+      <li>
+        <a href="/category/journal">journal</a>
+        <small class="post-count">2</small>
+      </li>
+      <li>
+        <a href="/category/language">language</a>
+        <small class="post-count">2</small>
+      </li>
+      <li>
+        <a href="/category/data-structures">data-structures</a>
+        <small class="post-count">1</small>
+      </li>
+      <li>
+        <a href="/category/resume">resume</a>
+        <small class="post-count">1</small>
+      </li>
+    </ul>
+
+    <p class="archive">
+      All <a href="/archive">5 articles</a>&hellip;
+    </p>
+
+<p>
+  This blog is built using <code>dart</code>. The source repo is
+  <a href="https://github.com/imflash217/journal">here</a>.
+</p>
+<p class="copyright">&copy; 2020-2024 Vinay Kumar</p>
+  </div>
+</nav>
+</div>
+  </body>
+</html>

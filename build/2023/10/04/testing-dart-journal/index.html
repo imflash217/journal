@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato&family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="//fonts.googleapis.com/css?family=Source+Code+Pro|PT+Serif:400,700,400italic,700italic"
+    rel="stylesheet"
+    type="text/css"
+  />
+
+  <!-- Tell mobile browsers we're optimized for them and they don't need to
+         crop the viewport. -->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS 2.0"
+    href="/rss.xml"
+  />
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom 1.0"
+    href="/atom.xml"
+  />
+  <link rel="stylesheet" href="/style.css" type="text/css" />
+
+  <link
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
+
+  <title>
+    Learning Journal Build via Dart &ndash; journal.stuffwithstuff.com
+  </title>
+</head>
+
+  <body>
+    <div class="column">
+<article>
+<header>
+<h1>
+  <a href="/2023/10/04/testing-dart-journal/" rel="bookmark"
+     title="Permanent Link to Learning Journal Build via Dart">
+    Learning Journal Build via Dart
+  </a>
+</h1>
+
+  <a class="older" href="/2023/08/04/representing-heterogeneous-data/"
+     title="Older Post &ldquo;Representing Heterogeneous Data&rdquo;">&#8617;</a>
+
+
+  <a class="newer" href="/2023/10/05/testing-hindi/"
+     title="Newer Post &ldquo;Hash Tables&rdquo;">&#8618;</a>
+
+</header>
+<h4><a href="/archive">October 04, 2023</a>
+    <span class="tags"><a href="/category/code">code</a> <a href="/category/journal">journal</a></span>
+</h4>
+
+<p>As I mentioned in the <a href="/2023/01/03/type-checking-if-expressions/">last post</a>, I&rsquo;m working on taking my little videogame
+scripting language and turning it into a statically typed one. As much as
+possible, I&rsquo;m trying to make the language simple and familiar. But sometimes
+those goals are in opposition and the most familiar solution to a problem is
+kind of a mess.</p>
+
+<p>So, I&rsquo;m also exploring novel approaches and delving deeper into programming
+language history to scavenge forgotten ideas.</p>
+
+<h2>The heterogeneous data problem</h2>
+
+<p>One problem every language has to solve is giving users a way to represent
+<em>heterogeneous data</em>. By that, I mean:</p>
+
+<ul>
+<li><p><strong>Data that might or might not be present.</strong> Imagine you have a record for
+storing a street address:</p>
+<div class="highlight"><pre><code class="language-vgs" data-lang="vgs"><span class="k">rec</span> <span class="t">Address</span>
+  <span class="k">var</span> <span class="i">number</span> <span class="t">Int</span>
+  <span class="k">var</span> <span class="i">street</span> <span class="t">String</span>
+  <span class="k">var</span> <span class="i">apartmentNumber</span> <span class="t">Int</span>
+  <span class="k">var</span> <span class="i">city</span> <span class="t">String</span>
+  <span class="k">var</span> <span class="i">zipCode</span> <span class="t">Int</span>
+  <span class="k">var</span> <span class="i">state</span> <span class="t">String</span>
+<span class="k">end</span>
+</code></pre></div></li>
+</ul>
+<div class="social">
+  <a
+    href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/04/testing-dart-journal//"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-reddit-square"></i>
+  </a>
+
+  <a
+    href="//news.ycombinator.com/submitlink?u=https://journal.stuffwithstuff.com/2023/10/04/testing-dart-journal//&amp;t=Learning Journal Build via Dart"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-hacker-news"></i>
+  </a>
+
+  <a
+    href="//twitter.com/share?url=https://journal.stuffwithstuff.com/2023/10/04/testing-dart-journal/&amp;text=%22Learning Journal Build via Dart%22%20%40munificentbob"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-twitter-square"></i>
+  </a>
+
+  <a
+    href="//www.facebook.com/share.php?u=https://journal.stuffwithstuff.com/2023/10/04/testing-dart-journal/"
+    target="_blank"
+  >
+    <i class="fa fa-lg fa-facebook-square"></i>
+  </a>
+
+  <a href="/rss.xml">
+    <i class="fa fa-lg fa-rss-square"></i>
+  </a>
+</div>
+
+
+  <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'journal-stuffwithstuff';
+        var disqus_url = "https://journal.stuffwithstuff.com/2023/10/04/testing-dart-journal/";
+
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+
+</article>
+
+
+<nav>
+  <div class="nav-first">
+    <!-- <a href="/"><img src="/image/dogshot_square.jpg" class="bob"></a> -->
+    <a href="/"><img src="/image/vinay_2019.png" class="bob" /></a>
+
+    <p>
+      Hi! I'm <strong>Vinay Kumar</strong>.
+      <!-- I wrote
+      <a href="https://gameprogrammingpatterns.com/"
+        ><strong>Game Programming Patterns</strong></a
+      >
+      and
+      <a href="https://craftinginterpreters.com"
+        ><strong>Crafting Interpreters</strong></a
+      >. -->
+    </p>
+    <p>
+      You can email me at <code>imflash217@gmail.com</code> or follow me on
+      GitHub at
+      <a href="https://github.com/imflash217"><code>@imflash217</code></a
+      >.
+    </p>
+
+    <h2>Elsewhere</h2>
+    <ul>
+      <li>Code at <a href="https://github.com/munificent">GitHub</a></li>
+      <li>Tweets at <a href="https://twitter.com/munificentbob">Twitter</a></li>
+      <li>Music at <a href="https://www.youtube.com/@tinywires">YouTube</a></li>
+      <li>Photos at <a href="https://500px.com/munificent">500px</a></li>
+      <li>
+        Photos at <a href="https://www.flickr.com/photos/bobisbob/">Flickr</a>
+      </li>
+    </ul>
+  </div>
+  <div class="nav-second">
+    <h2>Categories</h2>
+    <ul>
+      <li>
+        <a href="/category/code">code</a>
+        <small class="post-count">4</small>
+      </li>
+      <li>
+        <a href="/category/journal">journal</a>
+        <small class="post-count">2</small>
+      </li>
+      <li>
+        <a href="/category/language">language</a>
+        <small class="post-count">2</small>
+      </li>
+      <li>
+        <a href="/category/data-structures">data-structures</a>
+        <small class="post-count">1</small>
+      </li>
+      <li>
+        <a href="/category/resume">resume</a>
+        <small class="post-count">1</small>
+      </li>
+    </ul>
+
+    <p class="archive">
+      All <a href="/archive">5 articles</a>&hellip;
+    </p>
+
+<p>
+  This blog is built using <code>dart</code>. The source repo is
+  <a href="https://github.com/imflash217/journal">here</a>.
+</p>
+<p class="copyright">&copy; 2020-2024 Vinay Kumar</p>
+  </div>
+</nav>
+</div>
+  </body>
+</html>
