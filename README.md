@@ -1,6 +1,6 @@
 This is the source content and the build scripts for my blog
-[journal.stuffwithstuff.com].
+[bit.ly/imflash217].
 
-All of the content here is Copyright 2008-2021 Robert Nystrom.
+All of the content here is Copyright 2020-2024 Vinay Kumar.
 
-[journal.stuffwithstuff.com]: http://journal.stuffwithstuff.com
+[bit.ly/imflash217]: bit.ly/imflash217
