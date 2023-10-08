@@ -51,3 +51,4 @@ jobs:
           FOLDER: build # The folder that the Makefile generates files.
           CLEAN: true # Automatically remove deleted files from the deploy branch
           TARGET_FOLDER: build # The folder that we serve our application files from
+#
