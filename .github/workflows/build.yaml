@@ -19,7 +19,7 @@ jobs:
       - name: Setup Dart
         uses: dart-lang/setup-dart@v1
       - name: Installing dependecies
-        working-directory: ./temp
+        working-directory: ./packages/journal
         run: dart pub get
       - name: Build 🔧
         run: make build
