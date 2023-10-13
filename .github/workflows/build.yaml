@@ -53,4 +53,3 @@ jobs:
           folder: build # The folder that the Makefile generates files.
           clean: true # Automatically remove deleted files from the deploy branch
           # target-folder: buildx # The folder that we serve our application files from
-#
