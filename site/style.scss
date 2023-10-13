@@ -3,7 +3,7 @@ $sans:  'Lato', 'Noto Sans', 'Open Sans', 'Lucida Sans Unicode', 'Lucida Grande'
 $mono:  'Source Code Pro', Courier, monospace;
 $sans-designer: 'Croissant One';
 
-$body-text:        16px/24px $serif;
+$body-text:        18px/24px $serif;
 $body-bg:          hsl(90, 30%, 96%);
 $text-color:       #222;
 $gray:             mix($text-color, #fff, 30%);
@@ -141,7 +141,7 @@ nav {
   }
 
   code {
-    font: 13px $mono;
+    font: 18px $mono;
   }
 
   a {
@@ -167,7 +167,7 @@ nav {
   }
 
   .copyright {
-    font-size: 12px;
+    font-size: 16px;
     font-style: italic;
     color: $nav-text-small;
     text-align: center;
@@ -244,7 +244,7 @@ article {
   }
 
   h3 {
-    font: bold 19px/24px $serif;
+    font: bold 20px/24px $serif;
     padding: 24px 0 12px 0;
 
     code {
@@ -328,7 +328,7 @@ article {
     @include box($code-bg);
     padding: 1px 3px;
     color: $code-color;
-    font: 15px/18px $mono;
+    font: 18px/18px $mono;
     white-space: pre;
   }
 

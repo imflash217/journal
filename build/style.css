@@ -82,7 +82,7 @@ nav h2 {
   letter-spacing: 1px;
 }
 nav code {
-  font: 13px "Source Code Pro", Courier, monospace;
+  font: 18px "Source Code Pro", Courier, monospace;
 }
 nav a {
   color: hsl(35, 70%, 45%);
@@ -102,7 +102,7 @@ nav small {
   color: #bda88a;
 }
 nav .copyright {
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
   color: #bda88a;
   text-align: center;
@@ -169,7 +169,7 @@ article h2 code {
   padding: 0;
 }
 article h3 {
-  font: bold 19px/24px "Noto Serif";
+  font: bold 20px/24px "Noto Serif";
   padding: 24px 0 12px 0;
 }
 article h3 code {
@@ -206,7 +206,7 @@ article a:hover {
   color: hsl(200, 100%, 50%);
 }
 article p {
-  font: 16px/24px "Noto Serif";
+  font: 18px/24px "Noto Serif";
   padding: 8px 0;
   color: #222;
   letter-spacing: 0;
@@ -236,7 +236,7 @@ article code {
   background: hsl(200, 30%, 97%);
   padding: 1px 3px;
   color: hsl(200, 25%, 25%);
-  font: 15px/18px "Source Code Pro", Courier, monospace;
+  font: 18px/18px "Source Code Pro", Courier, monospace;
   white-space: pre;
 }
 article pre {
@@ -375,7 +375,7 @@ article table {
   color: #4d4c4c;
 }
 article table td {
-  font: 16px/24px "Noto Serif";
+  font: 18px/24px "Noto Serif";
   padding: 0 6px;
 }
 article table thead td {
