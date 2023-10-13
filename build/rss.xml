@@ -1,0 +1,1504 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>journal.stuffwithstuff.com</title>
+    <link>http://journal.stuffwithstuff.com/</link>
+    <atom:link href="http://journal.stuffwithstuff.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>Programming, languages, compilers, games, etc.</description>
+    <language>en-us</language>
+    <pubDate>Fri, 13 Oct 2023 23:01:43 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Oct 2023 23:01:43 GMT</lastBuildDate>
+
+
+    <item>
+      <title><strong>My Journey</strong> till now!</title>
+      <link>http://journal.stuffwithstuff.com/2023/10/06/resume/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2023/10/06/resume</guid>
+      <description>&lt;h2&gt;🙏🏽 Introduction&lt;/h2&gt;
+
+&lt;p&gt;Machine learning engineer with experience in building end-to-end solutions for multilingual text document processing, speech recognition, audio source separation and computer vision. Designed deep learning architectures for audio source separation, speaker identification and speaker verification. Successfully led teams and projects in designing, developing, and monitoring ML models with PyTorch, MLFlow, DVC, Docker, Kubernetes, and AWS toolkits.&lt;/p&gt;
+
+&lt;h2&gt;👨🏻‍💻 WORK EXPERIENCE&lt;/h2&gt;
+
+&lt;h3&gt;Machine Learning Engineer, &lt;a href=&quot;https://www.boominc.ai/&quot;&gt;Boom Interactive Inc.&lt;/a&gt; &lt;em&gt;(July 2022 – July 2023)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created a LayoutXLM-based OCR engine to identify user details in Japanese passports with 92% F1-score.&lt;/li&gt;
+&lt;li&gt;Implemented ByT5 encoded diffusion model in JAX and PyTorch to accurately generate accurate texts in images, creating a dataset for training a LayoutLM model that detects text in printed stamps images.&lt;/li&gt;
+&lt;li&gt;Built a GAN-based floor plan recognition model achieving 0.81 and 0.75 IOU scores on R2V and R3D dataset.&lt;/li&gt;
+&lt;li&gt;Saved over $40K in AWS expenses by building automated model deployments pipelines using GitHub Actions, ArgoCD, and endpoint-metrics collection using Prometheus, and Grafana.&lt;/li&gt;
+&lt;li&gt;Built training pipelines using PyTorch, MLFlow, and serving workflows using AWS EKS and Kubernetes.&lt;/li&gt;
+&lt;li&gt;Built AWS deployment cycles for reinforcement learning and regression-based floorplan-vectorization models.&lt;/li&gt;
+&lt;li&gt;Developed a diffusion-based generative AI model for interior-design image generation using HuggingFace.&lt;/li&gt;
+&lt;li&gt;Integrated generative-image AI model in Unity Engine project for instant view-capture and corresponding image generation for enhanced interion-design experience.&lt;/li&gt;
+&lt;li&gt;Authored three novel patents in floorplan recognition and generative-image AI systems for interior design.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Machine Learning Researcher, &lt;a href=&quot;https://research.ece.ncsu.edu/ivmcl/&quot;&gt;NC State&lt;/a&gt; &lt;em&gt;(July 2020 - May 2022)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Designed a novel Transformers and Grid Cells based low footprint model for object detection (MS Thesis)&lt;/li&gt;
+&lt;li&gt;Implementation of Transformers architectures including DETR, BERT, ViT, and self-supervised DINO model.&lt;/li&gt;
+&lt;li&gt;Created an annotated dataset of 5187 images of 15 cotton weed types utilizing the Super Annotate toolbox achieving the best F1 score of 99.1% on ResNet101 and an average F1 score of 98% on 14 different models.&lt;/li&gt;
+&lt;li&gt;Implemented Python ETL pipeline with distributed data storage using Git-LFS &amp;amp; Data Version Control (DVC).&lt;/li&gt;
+&lt;li&gt;Finetuned a keyword-spotting LSTM model for fetal PCG heartbeat detection with 56.7% accuracy.&lt;/li&gt;
+&lt;li&gt;MATLAB implementation of energy-based high-pass filter achieving 80% fetal PCG heartbeat detection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Deep Learning Intern, &lt;a href=&quot;https://www.fellowship.ai/&quot;&gt;Fellowship AI&lt;/a&gt;	&lt;em&gt;(May 2021 - Aug 2021)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Designed a self-supervised classifier with 45.3% accuracy to detect medical implants in X-ray images.&lt;/li&gt;
+&lt;li&gt;Coordinated with an 8-member team to develop an augmented dataset of 5000 images using a small dataset of clean X-rays and 3D models of implants and train a self-supervised learning system.&lt;/li&gt;
+&lt;li&gt;Developed a Python ETL pipeline to annotate 8000 x-rays by implementing self-supervised Barlow Twins.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Senior DSP and ML Engineer, &lt;a href=&quot;https://meeamitech.com/&quot;&gt;Meeami Technologies Pvt. Ltd&lt;/a&gt; &lt;em&gt;(June 2018 - July 2019)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implemented UNet-based model for noisy Multi-Channel Audio Source Separation scoring 6.3 SDR on MUSDB18 dataset over MUSEVAL metrics, with on-device deployment on Qualcomm XMOS multi-mic array.&lt;/li&gt;
+&lt;li&gt;Achieved 30% memory footprint reduction to 102 MB of UNet-model using quantization and model pruning.&lt;/li&gt;
+&lt;li&gt;Led a 4-member team to pioneer a memory-efficient TDNN model for multilingual keyword spotting in speech.&lt;/li&gt;
+&lt;li&gt;Saved over $50K in cloud expenses by building an in-house multi-GPU cluster to support multiple deep learning projects for efficient training and faster data transfer across local data warehouse for massive multilingual speech data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Deep Learning Engineer, &lt;a href=&quot;https://github.com/imflash217&quot;&gt;FlashAI&lt;/a&gt; &lt;em&gt;(July 2017 - June 2018)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using PyTorch, achieved 76% detection accuracy of garbage deposits in satellite images of urban areas.&lt;/li&gt;
+&lt;li&gt;Curated a dataset of 1000 images of small garbage deposits in the urban area to finetune the image detector.&lt;/li&gt;
+&lt;li&gt;Developed an Android app to notify users of detected garbage dumps around a given geolocation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Associate Research Engineer, &lt;a href=&quot;https://www.cognizant.com/us/en&quot;&gt;Cognizant Technology&lt;/a&gt; &lt;em&gt;(June 2014 - July 2017)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Led a 3-member team winning a $250K deal with L&amp;rsquo;Oréal by building a fingernail detector with 94% accuracy.&lt;/li&gt;
+&lt;li&gt;Implemented a 2D to 3D object reconstruction system for X-ray data stream using Python and OpenCV.&lt;/li&gt;
+&lt;li&gt;Built an immersive Unity3D app to study acrophobia using Oculus VR in collaboration with a local hospital.&lt;/li&gt;
+&lt;li&gt;Developed an autonomous non-GPS indoor navigation system using HoloLens and Google Project Tango.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;🤖 SKILLS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Programming languages&lt;/strong&gt;: Python, Rust, C++, MATLAB, Cython&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ML libraries&lt;/strong&gt;: PyTorch, JAX, Hugging Face, scikit-learn, Timm, Lightning, WandB, NumPy, Pandas, Matplotlib&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ML Tasks&lt;/strong&gt;: Image Generation, Object Detection, Image Captioning, NER, NMT, Audio Source Separation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MLOps&lt;/strong&gt;: Docker, Kubernetes, MLFlow, GitHub Actions CI/CD, ArgoCD, AWS, boto3, Prometheus, Grafana&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasets&lt;/strong&gt;: Book Corpus, SQuAD-v2, SST-2, MS-COCO, ImageNet, MUSDB-18, Japanese handwriting-data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ML architectures&lt;/strong&gt;: Transformers, ViT, DETR, BERT, Detectron, LSTMs, GRU, CNNs, RNNs, ResNet, DenseNet, ULMFiT, UNet, RCNN, Logistic Regression, k-NN, SVM, TDNN, LayoutLM, GANs, CLIP, Diffusion Models, ControlNet, Vicuna, Llama-2-7B, ByT5, wav2vec&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;🎓 EDUCATION&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Master of Science (Thesis)&lt;/strong&gt;, Electrical Engineering; North Carolina State University   (GPA=3.8) (May 2022)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BTech.&lt;/strong&gt;, Electrical Engineering; Indian Institute of Technology Hyderabad, India    		(June 2014)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;📑 RESEARCH PUBLICATIONS and PATENTS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Feature extraction from analytic phase of speech signals for speaker verification, &lt;strong&gt;INTERSPEECH&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;Allpass modeling of Fourier phase for speaker verification, &lt;strong&gt;Odyssey&lt;/strong&gt; Conference&lt;/li&gt;
+&lt;li&gt;“VecKReg: Vectorization of floorplans using end-to-end Keyline Regression” (&lt;strong&gt;patent&lt;/strong&gt; at &lt;a href=&quot;https://www.boominc.ai/&quot;&gt;Boom Inc.&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;“Additive Rendering Based on 3D Perspective Assets and Metadata using Generative AI” (&lt;strong&gt;patent&lt;/strong&gt; at &lt;a href=&quot;https://www.boominc.ai/&quot;&gt;Boom Inc.&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;“RL-FPS: Reinforcement Learning Based Floor Plan Segmentation” (&lt;strong&gt;patent&lt;/strong&gt; at &lt;a href=&quot;https://www.boominc.ai/&quot;&gt;Boom Inc.&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;🧑🏻‍🏫 MENTORSHIP &amp;amp; TEACHING&lt;/h2&gt;
+
+&lt;h3&gt;Machine Learning Mentor, &lt;a href=&quot;https://www.springboard.com/&quot;&gt;Springboard Inc.&lt;/a&gt; &lt;em&gt;(July 2019 - June 2021)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Successfully mentored 17 students in deep-learning courses using PyTorch, Hugging Face, NumPy, and scikit-learn in various computer vision, NLP, and audio processing tasks.&lt;/li&gt;
+&lt;li&gt;Designed experiments to analyze the relationship between different layers of BERT architecture for model pruning and its visualization like BertViz library identifying the redundant information flow across layers.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+
+    <item>
+      <title>Hash Tables</title>
+      <link>http://journal.stuffwithstuff.com/2023/10/05/testing-hindi/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2023/10/05/testing-hindi</guid>
+      <description>&lt;!-- ---
+hide:
+  - navigation # Hide navigation
+  - toc        # Hide table of contents
+--- --&gt;&lt;!-- ######################################################################################################### --&gt;
+
+&lt;h2&gt;Definition&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hash Table&lt;/strong&gt; is a data structure which stores data in an &lt;strong&gt;associative manner&lt;/strong&gt; (i.e. in a (key, value) pair).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In a hash table, the data is stored in an array format where each data-value has its own unique index-value. Due to this feature, the access to data becomes very fast if we know the desired index-value; irrespective of the size of the data.&lt;/li&gt;
+&lt;li&gt;Hash Table uses an array as a storage medium and uses &lt;strong&gt;hashing&lt;/strong&gt; to generate the index where an element is to be inserted or to be located from.&lt;/li&gt;
+&lt;/ul&gt;&lt;!-- ######################################################################################################### --&gt;
+
+&lt;h2&gt;Hashing&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.tutorialspoint.com/data_structures_algorithms/images/hash_function.jpg&quot; alt=&quot;Hashing&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hashing is a technique to &lt;strong&gt;map a range of keys into a range of indexes&lt;/strong&gt; (usually of an array).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A very generic hashing function is &lt;strong&gt;modulo operator&lt;/strong&gt; (&lt;code&gt;x % y&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;&lt;!-- ######################################################################################################### --&gt;
+
+&lt;h3&gt;Example&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Consider a hash-table of &lt;code&gt;size=20&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Following (&lt;code&gt;key&lt;/code&gt;, &lt;code&gt;value&lt;/code&gt;) pairs to be stored using the hash-table&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;i&quot;&gt;dict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;21&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;&lt;/span&gt;| Key | Hash           | Array index |
+| --- | -------------- | ----------- |
+| 9   | `9 % 20 = 9`   | `9`         |
+| 12  | `12 % 20 = 12` | `12`        |
+| 42  | `42 % 20 = 2`  | `2`         |
+| 7   | `7 % 20 = 7`   | `7`         |
+| 2   | `2 % 20 = 2`   | `2`         |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;As we can see that a given &lt;strong&gt;hashing function&lt;/strong&gt; can create the same hash-value from two different keys. (in above table keys &lt;code&gt;42&lt;/code&gt; and &lt;code&gt;2&lt;/code&gt;). So we use &lt;strong&gt;&lt;code&gt;Linear Probing&lt;/code&gt;&lt;/strong&gt; to resolve conflicts.&lt;/p&gt;&lt;!-- ######################################################################################################### --&gt;
+
+&lt;h2&gt;Linear Probing&lt;/h2&gt;
+
+&lt;p&gt;???+ note &amp;ldquo;Linear Probing&amp;rdquo;
+&lt;strong&gt;Linear Probing&lt;/strong&gt; is a method used to resolve conflicts in the hash-value. It may happen that the hash-function creates an already used index of the array. In such case we search the next empty location of the array &lt;strong&gt;by looking into the next cell until we find an empty cell&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;So in our above example, the updated hash-table would map `key = 2` to `index = 3`:
+
+| Key | Hash           | Array index |
+| --- | -------------- | ----------- |
+| 9   | `9 % 20 = 9`   | `9`         |
+| 12  | `12 % 20 = 12` | `12`        |
+| 42  | `42 % 20 = 2`  | `2`         |
+| 7   | `7 % 20 = 7`   | `7`         |
+| 2   | `2 % 20 = 2`   | **`3`**     |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Search&lt;/h2&gt;
+
+&lt;p&gt;???+ success &amp;ldquo;search() method for hash-table&amp;rdquo;
+&lt;strong&gt;&lt;code&gt;Search&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delete&lt;/h2&gt;
+
+&lt;p&gt;???+ danger &amp;ldquo;delete() method for hash-table&amp;rdquo;
+&lt;strong&gt;&lt;code&gt;Delete&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;&lt;!-- ######################################################################################################### --&gt;
+
+&lt;h2&gt;Python Implementation&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;--&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;../ProgrammingContests/ctci/hashtable.py&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- ######################################################################################################### --&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;&lt;!-- ######################################################################################################### --&gt;
+</description>
+    </item>
+
+    <item>
+      <title>Learning Journal Build via Dart</title>
+      <link>http://journal.stuffwithstuff.com/2023/10/04/testing-dart-journal/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2023/10/04/testing-dart-journal</guid>
+      <description>&lt;p&gt;As I mentioned in the &lt;a href=&quot;/2023/01/03/type-checking-if-expressions/&quot;&gt;last post&lt;/a&gt;, I&amp;rsquo;m working on taking my little videogame
+scripting language and turning it into a statically typed one. As much as
+possible, I&amp;rsquo;m trying to make the language simple and familiar. But sometimes
+those goals are in opposition and the most familiar solution to a problem is
+kind of a mess.&lt;/p&gt;
+
+&lt;p&gt;So, I&amp;rsquo;m also exploring novel approaches and delving deeper into programming
+language history to scavenge forgotten ideas.&lt;/p&gt;
+
+&lt;h2&gt;The heterogeneous data problem&lt;/h2&gt;
+
+&lt;p&gt;One problem every language has to solve is giving users a way to represent
+&lt;em&gt;heterogeneous data&lt;/em&gt;. By that, I mean:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data that might or might not be present.&lt;/strong&gt; Imagine you have a record for
+storing a street address:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;rec&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Address&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;street&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;String&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;apartmentNumber&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;city&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;String&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;zipCode&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;String&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+
+    <item>
+      <title>Representing Heterogeneous Data</title>
+      <link>http://journal.stuffwithstuff.com/2023/08/04/representing-heterogeneous-data/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2023/08/04/representing-heterogeneous-data</guid>
+      <description>&lt;p&gt;As I mentioned in the &lt;a href=&quot;/2023/01/03/type-checking-if-expressions/&quot;&gt;last post&lt;/a&gt;, I&amp;rsquo;m working on taking my little videogame
+scripting language and turning it into a statically typed one. As much as
+possible, I&amp;rsquo;m trying to make the language simple and familiar. But sometimes
+those goals are in opposition and the most familiar solution to a problem is
+kind of a mess.&lt;/p&gt;
+
+&lt;p&gt;So, I&amp;rsquo;m also exploring novel approaches and delving deeper into programming
+language history to scavenge forgotten ideas.&lt;/p&gt;
+
+&lt;h2&gt;The heterogeneous data problem&lt;/h2&gt;
+
+&lt;p&gt;One problem every language has to solve is giving users a way to represent
+&lt;em&gt;heterogeneous data&lt;/em&gt;. By that, I mean:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data that might or might not be present.&lt;/strong&gt; Imagine you have a record for
+storing a street address:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;rec&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Address&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;street&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;String&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;apartmentNumber&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;city&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;String&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;zipCode&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;String&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But some addresses don&amp;rsquo;t have apartment numbers. How do you store the
+apartment number when an address has one but also support its absence?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data that might be in one of several different forms.&lt;/strong&gt; You&amp;rsquo;re making a
+game where a hero can wield weapons. Melee weapons like swords have a single
+number for how much damage they do. Ranged weapons like crossbows have a
+pair of numbers for the minimum and maximum range they can reach. How do
+different kinds of weapons have different fields?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are two sides of the exact same coin. You can treat optional data as data
+that can be in one of two forms: present with an associated value or absent with
+no value attached. Functional languages with an &lt;a href=&quot;https://en.wikipedia.org/wiki/Option_type&quot;&gt;option or maybe type&lt;/a&gt; do
+exactly that: The language directly supports data that can have one of multiple
+forms, and they model absent data using that.&lt;/p&gt;
+
+&lt;p&gt;Conversely, you could model data being in one of several different forms by
+having separate fields for all possible forms it could be in. At any point in
+time, only one of the fields has a value and the others are all absent. If
+you&amp;rsquo;ve ever found yourself building a struct or class and writing a comment that
+says &amp;ldquo;If this field is blah then this other field will be null.&amp;rdquo; then you&amp;rsquo;ve
+taken this path (and probably felt a little gross doing it).&lt;/p&gt;
+
+&lt;h2&gt;What other languages do&lt;/h2&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know if broad language tours are your thing, but so much of my job
+working on &lt;a href=&quot;https://dart.dev&quot;&gt;Dart&lt;/a&gt; involves researching how other languages solve a problem that
+I can&amp;rsquo;t help myself anymore.&lt;/p&gt;
+
+&lt;p&gt;There are a handful of solutions to the problem. I&amp;rsquo;ll just throw out the ones I
+know:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Null.&lt;/strong&gt; The &lt;a href=&quot;https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/&quot;&gt;most famously maligned&lt;/a&gt; approach is to allow any
+reference variable to potentially refer to &amp;ldquo;null&amp;rdquo;, &amp;ldquo;nil&amp;rdquo;, or nothing. This
+means every reference type can directly also represent an absent value. Of
+course, the problem is that many data fields &lt;em&gt;aren&amp;rsquo;t&lt;/em&gt; heterogeneous and
+&lt;em&gt;should&lt;/em&gt; always be present. If you make every single reference nullable,
+you&amp;rsquo;ve lost the ability to distinguish ones that can be absent from ones
+that really shouldn&amp;rsquo;t be.&lt;/p&gt;
+
+&lt;p&gt;This is why many newer statically typed languages either don&amp;rsquo;t support
+null at all (Rust and most other statically typed functional languages) or
+support &lt;a href=&quot;https://en.wikipedia.org/wiki/Nullable_type&quot;&gt;non-nullable types&lt;/a&gt; (Dart, Kotlin, and TypeScript).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Variant types.&lt;/strong&gt; A &amp;ldquo;variant&amp;rdquo; type is a type that can hold a value of one
+of multiple different types. You can think of nullable references as a
+limited variant type that can hold either a value of one specific type or
+the special &lt;code&gt;null&lt;/code&gt; value but that&amp;rsquo;s it. Some languages have looser variants
+that let you store values of any type in the same variable.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Untagged unions.&lt;/strong&gt; C lets you define a data structure whose fields all
+share overlapping memory. If you have a few different pieces of data that
+are &lt;em&gt;disjoint&lt;/em&gt;&amp;mdash;you should only ever have one of them and not the others&amp;mdash;then this avoids the memory overhead of storing them all separately.&lt;/p&gt;
+
+&lt;p&gt;However, in C, the language itself doesn&amp;rsquo;t keep track of &lt;em&gt;which&lt;/em&gt; piece of
+data you have in the union. It will freely let you write one field and then
+read out another and it will happily just reinterpret the bits in memory as
+that other type. Efficient, yes. Safe? No.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Sum types.&lt;/strong&gt; Functional languages going all the way back to &lt;a href=&quot;https://en.wikipedia.org/wiki/ML_(programming_language)&quot;&gt;ML&lt;/a&gt; have a
+feature also sometimes confusingly called &amp;ldquo;unions&amp;rdquo; that is fairly different.
+Again, you have an object that can store one of a few different kinds of
+data. But the language also stores a &lt;em&gt;tag&lt;/em&gt; in there so that it knows at
+runtime which piece of data you have. (This is why they&amp;rsquo;re also called
+&amp;ldquo;tagged unions&amp;rdquo; or &amp;ldquo;discriminated unions&amp;rdquo;.)&lt;/p&gt;
+
+&lt;p&gt;The language uses &lt;a href=&quot;https://dart.dev/language/patterns#algebraic-data-types&quot;&gt;pattern matching&lt;/a&gt; to cleverly prevent you from
+accessing the data as the wrong type.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Subtyping.&lt;/strong&gt; The object-oriented dual to sum types is subtyping: either
+inheritance or interface implementation. In an object-oriented language, we
+could model our weapon example like:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-dart&quot; data-lang=&quot;dart&quot;&gt;&lt;span class=&quot;k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;t&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;t&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;t&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Code that wants to work with weapons generally uses the &lt;code&gt;Weapon&lt;/code&gt; supertype.
+The two subtypes for melee and ranged weapons each store the fields they
+need. If you want to go all the way to an object-oriented style, these
+fields would be private and then you&amp;rsquo;d have abstract methods in &lt;code&gt;Weapon&lt;/code&gt;
+that are overridden in the subclasses to use them.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a complex, heavyweight approach, but a powerful and flexible one.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There may be a couple of other weirder language features you can use to model
+varied data, but I think these are the big ones. Languages tend to pick and
+choose from this list:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Dynamically typed languages&lt;/strong&gt; essentially treat &lt;em&gt;all&lt;/em&gt; variables as variant
+types. And all the ones I know also go ahead and allow null too. If you&amp;rsquo;re
+not going to have any static checking anyway, you may as well be maximally
+permissive, I guess.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Statically typed functional languages&lt;/strong&gt; lean really hard on sum types.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Object-oriented languages&lt;/strong&gt; obviously primarily use subtyping, though most
+also have nullable reference types.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt; makes pointer types nullable and supports untagged unions. It doesn&amp;rsquo;t
+have (checked) variants or subtyping, but it can approximate both by
+allowing pointers to be cast to different types. &lt;strong&gt;C++&lt;/strong&gt; takes everything C
+has and also explicitly supports subtyping.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Newer, bigger multi-paradigm languages like C# and Swift tend to take just about
+all of the approaches.&lt;/p&gt;
+
+&lt;h2&gt;Whither for my little language?&lt;/h2&gt;
+
+&lt;p&gt;OK, so what&amp;rsquo;s the right approach for my aspirationally simple and elegant
+statically typed game scripting language?&lt;/p&gt;
+
+&lt;p&gt;I quite like object-oriented programming in general, but subtyping adds a &lt;em&gt;lot&lt;/em&gt;
+of complexity to a static type system, so my current plan is to not have
+subtyping in the language at all. That rules out that approach.&lt;/p&gt;
+
+&lt;p&gt;My goal is for the language to be fairly high level and expressive. It&amp;rsquo;s
+supposed to be a language that makes making games &lt;em&gt;fun&lt;/em&gt;, not necessarily a
+high-performance machine for engineering giant AAA games. I want you to have a
+good time tinkering on pixelly 2D games, not write the next Unreal Engine in it.
+To that end, the language is garbage-collected. That means memory safety, which
+rules out untagged unions.&lt;/p&gt;
+
+&lt;p&gt;Back when this language was dynamically typed, it had &lt;code&gt;nil&lt;/code&gt;, so that&amp;rsquo;s an
+obvious approach. But I&amp;rsquo;ve spent, like, &lt;a href=&quot;/2011/10/29/a-proposal-for-null-safety-in-dart/&quot;&gt;way too much of my time&lt;/a&gt;
+&lt;a href=&quot;https://medium.com/dartlang/announcing-dart-3-53f065a10635&quot;&gt;rooting out nullable references from Dart&lt;/a&gt; and the last thing I want
+to do with my hobby project is to go back to square one.&lt;/p&gt;
+
+&lt;p&gt;That basically just leaves sum types and variant types. Given that my language
+is statically typed and not object-oriented, sum types are the obvious approach.
+Everyone who uses sum types loves them, myself included. Algebraic datatypes are
+just &lt;em&gt;cool.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And, in fact, I went ahead and implemented a protype of sum types and pattern
+matching and destructuring in my language. It worked. It was&amp;hellip; just OK. To
+explain why requires a little context&lt;/p&gt;
+
+&lt;h2&gt;An imperative, procedural language&lt;/h2&gt;
+
+&lt;p&gt;My language is unabashedly imperative. I &lt;em&gt;like&lt;/em&gt; imperative programming,
+especially for scripting little games. Games are giant balls of mutable state.
+I&amp;rsquo;ve watched my kids and many others learn to program, and imperatively
+modifying stuff seems to be a natural way to think about defining a process.&lt;/p&gt;
+
+&lt;p&gt;When you read a recipe for cake, you don&amp;rsquo;t see steps like: &amp;ldquo;Produce a new bowl
+of batter which is the previous bowl of batter and 2 cups of sugar.&amp;rdquo; It just
+says &amp;ldquo;Add 2 cups of sugar to the bowl.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Now, I know all of the problems with mutation of state and imperative code when
+programming in the large. I get it. But this is supposed to be a fun little
+language for fun little games and, to me, imperative programming fits that to a
+tee.&lt;/p&gt;
+
+&lt;p&gt;The basic vibe I have for the language is similar to Pascal, C, or BASIC: In
+other words, a classic procedural language. Structures and functions. It looks
+like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;rec&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You are out of range.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;rollDice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You kill the monster!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You wound the monster.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;What&amp;rsquo;s cool about simple procedural code is that even though I have no idea what
+language you know and you &lt;em&gt;certainly&lt;/em&gt; have never programmed in &lt;em&gt;this&lt;/em&gt; one, I&amp;rsquo;m
+still pretty confident that you understand this code.&lt;/p&gt;
+
+&lt;h2&gt;With sum types&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s see how it looks with something like sum types:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;rec&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;isInRange&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;min&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;max&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;isInRange&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You are out of range.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;match&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;rollDice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;max&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;min&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You kill the monster!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You wound the monster.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The sort of weird &lt;code&gt;rec&lt;/code&gt; syntax is defining a sum type, &lt;code&gt;Weapon&lt;/code&gt;, with type
+constructors &lt;code&gt;MeleeWeapon&lt;/code&gt; and &lt;code&gt;RangedWeapon&lt;/code&gt;. I&amp;rsquo;m still noodling on the syntax.&lt;/p&gt;
+
+&lt;p&gt;Now, the code here works. And it&amp;rsquo;s safe. The compiler and the structure of the
+pattern matching code itself prevent you from accessing the wrong fields from a
+weapon of a different kind. That&amp;rsquo;s cool.&lt;/p&gt;
+
+&lt;p&gt;But it&amp;rsquo;s so much &lt;em&gt;weirder&lt;/em&gt; than the previous code. In a procedural language, the
+idiomatic way to access fields on records is simply &lt;code&gt;record.field&lt;/code&gt;. That syntax
+is in almost every programming language all the way back to Algol. But once you
+hop over to sum types, you lose that syntax entirely and have to instead sort of
+&amp;ldquo;invert&amp;rdquo; the code and use pattern matching and destructuring.&lt;/p&gt;
+
+&lt;p&gt;I do love pattern matching and destructuring&amp;mdash;I just spent the past year of my
+life &lt;a href=&quot;https://github.com/dart-lang/language/blob/main/accepted/3.0/patterns/feature-specification.md&quot;&gt;adding it to Dart&lt;/a&gt;. But for &lt;em&gt;this&lt;/em&gt; language, I&amp;rsquo;m pushing really
+hard on simplicity. If possible, I don&amp;rsquo;t want &lt;em&gt;two&lt;/em&gt; different ways to access
+state on a value, depending on whether the field is case-specific or not.&lt;/p&gt;
+
+&lt;p&gt;More to the point, there&amp;rsquo;s no graceful way to handle &lt;em&gt;mutable&lt;/em&gt; sum type fields
+using pattern matching. SML eschews mutability in general and then works around
+it by allowing you to define explicit mutable ref types. But that&amp;rsquo;s definitely
+not how my language rolls.&lt;/p&gt;
+
+&lt;h2&gt;Variant records&lt;/h2&gt;
+
+&lt;p&gt;There is &lt;em&gt;one&lt;/em&gt; other approach to heterogeneous data that I found that I didn&amp;rsquo;t
+put in the list up there because, as far as I can tell, it&amp;rsquo;s basically a dead
+end in the evolutionary history of programming languages.&lt;/p&gt;
+
+&lt;p&gt;Some versions of Pascal have a thing called &amp;ldquo;variant records&amp;rdquo;. A record in
+Pascal is your basic &amp;ldquo;collection of fields&amp;rdquo; struct type. A &lt;em&gt;variant&lt;/em&gt; record says
+that &lt;em&gt;some&lt;/em&gt; of those fields are only accessible when the record is one of a few
+different enumerated states.&lt;/p&gt;
+
+&lt;p&gt;In C, it&amp;rsquo;s common to wrap an untagged union in a struct along with a tag enum
+indicating which branch of the union is active:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;enum&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;r&quot;&gt;WEAPON_MELEE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;r&quot;&gt;WEAPON_RANGED&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;WeaponType&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;t&quot;&gt;WeaponType&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;union&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;t&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;melee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;t&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;t&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;ranged&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Using it looks something like:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;r&quot;&gt;WEAPON_MELEE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;melee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A variant record in Pascal (as I understand it from the half dozen ancient
+slideshows I&amp;rsquo;ve been able to find about it) essentially models that pattern
+directly.&lt;/p&gt;
+
+&lt;p&gt;The cool thing about this feature is that the variant-specific fields are
+accessed using the same familiar field access syntax used everywhere else. That
+also means variant-specific fields can be mutable.&lt;/p&gt;
+
+&lt;p&gt;Of course, the &lt;em&gt;not&lt;/em&gt; cool thing about using that same field syntax is that
+there&amp;rsquo;s nothing preventing you from accessing the &lt;em&gt;wrong&lt;/em&gt; variant field:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;r&quot;&gt;WEAPON_MELEE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;melee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;i&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Min range %d&lt;/span&gt;&lt;span class=&quot;e&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;as&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;ranged&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;// Oops.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;There is a type tag, but the language doesn&amp;rsquo;t know and doesn&amp;rsquo;t check it. This is
+definitely true in C and I think true in Pascal. (It&amp;rsquo;s always hard to talk about
+Pascal definitively because there&amp;rsquo;s no &amp;ldquo;Pascal&amp;rdquo;, just a huge family of
+loosely-related Pascal-ish languages.)&lt;/p&gt;
+
+&lt;p&gt;In a memory safe language like mine, I definitely don&amp;rsquo;t want users to be able
+to reinterpret memory. But that&amp;rsquo;s a solvable problem.&lt;/p&gt;
+
+&lt;h2&gt;Record cases&lt;/h2&gt;
+
+&lt;p&gt;Which, finally, brings us to the feature I designed for my language. It&amp;rsquo;s very
+close to variant records in Pascal. The type declaration looks just like the
+sum type example:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;rec&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The difference is that you don&amp;rsquo;t need to rely on pattern matching to access the
+variant fields. They&amp;rsquo;re just fields:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt;
+      &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt;
+      &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You are out of range.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;rollDice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You kill the monster!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You wound the monster.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;health&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Of course, you lose the compile-time safety that pattern matching gives you
+where you can&amp;rsquo;t access fields of the wrong type. But we don&amp;rsquo;t need to go all the
+way to C&amp;rsquo;s level of unsafety. Instead, when you access a case-specific field on
+a record, if the record&amp;rsquo;s type tag is set to a different case, the access throws
+a &lt;em&gt;runtime&lt;/em&gt; error. This preserves memory safety.&lt;/p&gt;
+
+&lt;p&gt;This is a real trade-off. The feature I have here provides strictly less static
+safety than using sum types. There is a slight performance cost to checking the
+type tag when accessing case-specific fields. In return, you get simpler, more
+familiar syntax for working with case-specific fields, including mutable ones.&lt;/p&gt;
+
+&lt;p&gt;Also, it allows a single record to have a mixture of shared and case-specific
+fields:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;rec&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;String&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;bonus&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;MeleeWeapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;damage&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here, &lt;code&gt;name&lt;/code&gt; and &lt;code&gt;bonus&lt;/code&gt; can be accessed on all &lt;code&gt;Weapon&lt;/code&gt; instances, but the
+other fields are case specific. It sort of combines product and sum types into a
+single construct. I&amp;rsquo;ve found this to be really handy in practice.&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t decided if I&amp;rsquo;m totally sold on this feature yet. But in the
+(admittedly small) amount of example code I&amp;rsquo;ve written using it so far, it seems
+to feel pretty nice. For a small game scripting language, I think it may strike
+a decent balance between static safety and simplicity.&lt;/p&gt;
+
+&lt;h2&gt;Update: What about flow typing?&lt;/h2&gt;
+
+&lt;p&gt;When I first posted this, the most common reply was why not do some sort of flow
+typing? In code like:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt;
+      &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You are out of range.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The compiler could do control flow analysis to determine that the &lt;code&gt;.minRange&lt;/code&gt;
+and &lt;code&gt;.maxRange&lt;/code&gt; calls are guarded by an &lt;code&gt;is RangedWeapon&lt;/code&gt; and thus allow them.
+But if you &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; guard the code with that kind of check, you&amp;rsquo;d get an error:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Error! Can&amp;#39;t access .minRange here.&lt;/span&gt;
+     &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You are out of range.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This is definitely a thing you can do! TypeScript, Kotlin, Flow, Dart, and
+others all support it. The general technique is called &amp;ldquo;control flow analysis&amp;rdquo;
+and the specific feature is called &amp;ldquo;flow typing&amp;rdquo;, &amp;ldquo;smart casts&amp;rdquo;, or &amp;ldquo;type
+promotion&amp;rdquo; depending on which language.&lt;/p&gt;
+
+&lt;p&gt;Is it a good fit for my language? I do like that it makes imperative code &amp;ldquo;just
+work&amp;rdquo; while being safe. But that &amp;ldquo;just&amp;rdquo; is doing a lot of heavy lifting. We do
+this analysis in Dart and it is &lt;em&gt;fantastically&lt;/em&gt; complex. Proving that a certain
+piece of code can only be reached by going through some other piece of code
+first gets hard quickly in the presence of loops and closures. It seems like
+every release of Dart, we ship more extensions to flow analysis because users
+keep expecting it to be smarter and smarter.&lt;/p&gt;
+
+&lt;p&gt;Also, it isn&amp;rsquo;t sound in many cases that users expect to work. Once the variable
+that you&amp;rsquo;re type testing can escape the current function, the compiler generally
+can&amp;rsquo;t prove that it won&amp;rsquo;t be mutated between when you test its type and when you
+use it as the more precise type later.&lt;/p&gt;
+
+&lt;p&gt;Overall, my feeling is that it works out pretty well for Dart, but it&amp;rsquo;s a large
+sort of messy feature that feels a little too magical. A goal with my hobby
+language is that you should be able to have the whole language loaded into your
+head and rarely be surprised by what it does. Flow analysis in Dart still fairly
+often surprises me and I &lt;em&gt;literally work on the language full-time&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s also the question of what you promote the tested variable &lt;em&gt;to&lt;/em&gt;. In my
+language as it currently stands, there is no subtyping. &lt;code&gt;MeleeWeapon&lt;/code&gt; isn&amp;rsquo;t a
+subtype of &lt;code&gt;Weapon&lt;/code&gt;, it&amp;rsquo;s a case constructor. The &lt;code&gt;weapon is MeleeWeapon&lt;/code&gt; syntax
+looks like a type test, but it&amp;rsquo;s really more like an enum case check.&lt;/p&gt;
+
+&lt;p&gt;So after that test, what type would &lt;code&gt;weapon&lt;/code&gt; have? It would still have to be
+&lt;code&gt;Weapon&lt;/code&gt;. I guess I could make this work by not promoting the &lt;em&gt;type&lt;/em&gt; but by
+having the type checker track an extra &amp;ldquo;known case&amp;rdquo; property for each static
+type and then use that. That might work. But even with that, I worry that it
+would quickly become annoying. Let&amp;rsquo;s say you refactor the above code to:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;attack&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;monster&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Monster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;RangedWeapon&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;checkRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt;
+      &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;You are out of range.&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;# ...&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;checkRange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Bool&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;minRange&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;weapon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;maxRange&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That no longer works. Inside &lt;code&gt;checkRange()&lt;/code&gt; the compiles has lost track that
+&lt;code&gt;weapon&lt;/code&gt; is always a &lt;code&gt;RangedWeapon&lt;/code&gt;. You could come up with a way to annotate
+that, but now we&amp;rsquo;re back to subtyping and all the complexity it involves.&lt;/p&gt;
+
+&lt;p&gt;So, overall, yes, subtyping and flow analysis is a thing that could work here,
+but I&amp;rsquo;m trying to avoid it because I feel like it&amp;rsquo;s a bigger lump of complexity
+than I want to take on.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d be more inclined to do sum types and destructuring, even though it feels a
+little weird in an imperative language, then do this kind of complex control
+flow analysis.&lt;/p&gt;
+</description>
+    </item>
+
+    <item>
+      <title>Type Checking If Expressions</title>
+      <link>http://journal.stuffwithstuff.com/2023/01/03/type-checking-if-expressions/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2023/01/03/type-checking-if-expressions</guid>
+      <description>&lt;p&gt;I have this hobby project I&amp;rsquo;ve been hacking on for several years. It&amp;rsquo;s a fantasy
+console, very much inspired by the delightful &lt;a href=&quot;https://www.lexaloffle.com/pico-8.php&quot;&gt;PICO-8&lt;/a&gt;. Like PICO-8, my
+console has its own built-in scripting language. Because I&amp;rsquo;m me, I of course
+took the opportunity to design an entirely new language.&lt;/p&gt;
+
+&lt;p&gt;My goal for the project is a fun way to build small-ish 2D games. I want its
+scripting language to be expressive enough to be joyful, but small enough that
+you can learn the whole language and never need to consult a reference manual
+after that. My dream is a goofy little pixellated IDE where you can get lost in
+your own flow state and just make shit without having to periodically hit
+StackOverflow and then get distracted by the wonders/horrors of the Internet.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t know if I&amp;rsquo;ll ever pull this off or the language will ever see the light of day, but it&amp;rsquo;s a fun therapeutic thing for me to noodle on.&lt;/p&gt;
+
+&lt;h2&gt;A dynamically typed scripting language&lt;/h2&gt;
+
+&lt;p&gt;To make a language that fits in your head (or at least my head, whose working
+space seems to get smaller every year), I needed to jettison as many feature as
+I could. My experience across a range of hobby and &lt;a href=&quot;https://dart.dev/&quot;&gt;not-so-hobby&lt;/a&gt;
+languages is that static types add roughly an order of magnitude of complexity,
+so types were one of the first things to go. Like most scripting languages, I
+made mine dynamically typed.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;onTick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;buttonHeld&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;buttonHeld&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0.5&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0.5&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;3.0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;3.0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;3.0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;3.0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0.8&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;v&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;200&lt;/span&gt;
+    &lt;span class=&quot;i&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;buttonPressed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;200&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+      &lt;span class=&quot;i&quot;&gt;playSequence&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;i&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;10.0&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Another simplification I made is to eliminate the distinction between statements
+and expressions. As in Ruby, Kotlin, and most functional languages, everything
+is an expression. The previous chained &lt;code&gt;if&lt;/code&gt; could be written in a more
+explicitly expression-y style like:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;d&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;0.5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;0.5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Unifying statements and expressions means the language doesn&amp;rsquo;t need a separate
+&lt;code&gt;if&lt;/code&gt; statement and conditional expression. Also, I don&amp;rsquo;t know, I just like
+expression-oriented languages.&lt;/p&gt;
+
+&lt;h2&gt;An imperative language&lt;/h2&gt;
+
+&lt;p&gt;Even though the language is expression-oriented, it&amp;rsquo;s not explicitly
+&lt;em&gt;functional&lt;/em&gt;. Functional languages are close to my heart, but this is a game
+scripting language. A game world is basically a big ball of incrementally
+updated mutable state. For the kind of programs and user experience I have in
+mind, I think an imperative, procedural style is easy to learn, and fun to
+program in. I want users thinking about their game, not, like, monads and
+persistent data structures.&lt;/p&gt;
+
+&lt;p&gt;So while everything is an expression in my language, it doesn&amp;rsquo;t at all shy away
+from side effects and imperative control flow. Variables are assignable. Fields
+are settable. There are loops and breaks and early returns. All of those are as
+natural and idiomatic as they are in C++, JavaScript, C#, or any of the other
+languages that the majority of the world&amp;rsquo;s code is written in.&lt;/p&gt;
+
+&lt;h2&gt;Handmade Seattle&lt;/h2&gt;
+
+&lt;p&gt;Last fall, I attended the wonderful &lt;a href=&quot;https://handmade-seattle.com/&quot;&gt;Handmade Seattle&lt;/a&gt; conference. I had a
+particularly inspiring conversation with &lt;a href=&quot;https://wiki.xxiivv.com/site/home.html&quot;&gt;Devine Lu Linvega&lt;/a&gt; about their
+tiny &lt;a href=&quot;https://wiki.xxiivv.com/site/uxn.html&quot;&gt;uxn&lt;/a&gt; VM. They had this idea to build the smallest possible system and
+programming language for their own use. Then they rebuilt their own personal
+tools&amp;mdash;text editor, music stuff, etc.&amp;mdash;using that.&lt;/p&gt;
+
+&lt;p&gt;Now, UXN is &lt;em&gt;really&lt;/em&gt; minimal. I get a certain satisfaction from programming in
+assembly, but it&amp;rsquo;s not the language I would want to use for my own joy. But it
+did make me rethink the scripting language for my fantasy console. I picked
+dynamic types because that made the language smaller and I figured it would be a
+good fit for my (entirely hypothetical at this point) users.&lt;/p&gt;
+
+&lt;p&gt;But is it what &lt;em&gt;I&amp;rsquo;d&lt;/em&gt; want to use to make little 2D videogames? The game I&amp;rsquo;ve
+spent the most time hacking on is my also-perennially-incomplete roguelike
+&lt;a href=&quot;https://github.com/munificent/hauberk&quot;&gt;Hauberk&lt;/a&gt;. I&amp;rsquo;ve rewritten it several times, but every incarnation has been in
+a statically typed language: C++, C#, Java, and now Dart.&lt;/p&gt;
+
+&lt;p&gt;My most pleasurable time spent working on Hauberk is when I&amp;rsquo;m refactoring and
+the type system guides me to what&amp;rsquo;s left to clean up. I just really like working
+with types. (It&amp;rsquo;s OK if you don&amp;rsquo;t. As our Burger Sovereign says, have it your
+way.)&lt;/p&gt;
+
+&lt;p&gt;After talking to Devine, I realized that if I was making this fantasy console
+&lt;em&gt;for me personally&lt;/em&gt;, its language would be typed. So over the past few weeks,
+I&amp;rsquo;ve been sketching out a statically typed variant of my console&amp;rsquo;s scripting
+language. I don&amp;rsquo;t know if it will really come together, but I thought maybe it
+would be fun to write about the exploration.&lt;/p&gt;
+
+&lt;h2&gt;Type checking &lt;code&gt;if&lt;/code&gt; expressions&lt;/h2&gt;
+
+&lt;p&gt;I slapped together a new prototype interpreter for my language. (The main
+implementation is a bytecode VM in C++, which is pretty fast but not exactly
+easy to hack on.) Then I dutifully started adding a type checking pass to it.
+One of the first challenges I hit is how to type check &lt;code&gt;if&lt;/code&gt; expressions.&lt;/p&gt;
+
+&lt;p&gt;As the title up there implies, that&amp;rsquo;s what this post is really about. Because it
+turns out that having &lt;code&gt;if&lt;/code&gt; be an expression while also fully embracing an
+imperative style gets a little weird when it comes to type checking.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll walk through a bunch of examples and build up to the type checking rules I
+have settled on (so far, at least). We&amp;rsquo;ll start simple:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;love&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;isFriday&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;in love&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;not in love&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;We need a type for the &lt;code&gt;if&lt;/code&gt; expression so that we can infer a type for the
+variable &lt;code&gt;love&lt;/code&gt;. In this case, the type is obviously String since both the then
+and else branches evaluate to strings.&lt;/p&gt;
+
+&lt;p&gt;So the basic rule we&amp;rsquo;ll start with is: &lt;strong&gt;An &lt;code&gt;if&lt;/code&gt; expression&amp;rsquo;s type is the type
+of the branches.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Different branch types&lt;/h2&gt;
+
+&lt;p&gt;But what if they don&amp;rsquo;t have the same type? What about:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;love&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;isFriday&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;in love&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here, &lt;code&gt;love&lt;/code&gt; could end up being initialized to either a &lt;code&gt;String&lt;/code&gt; or an &lt;code&gt;Int&lt;/code&gt;.
+Now what type do we choose? &lt;a href=&quot;https://crystal-lang.org/reference/1.7/syntax_and_semantics/if.html&quot;&gt;Crystal&amp;rsquo;s answer&lt;/a&gt; is &lt;code&gt;String | Int&lt;/code&gt;. Union
+types are cool but definitely too complex for the language I&amp;rsquo;m trying to make.&lt;/p&gt;
+
+&lt;p&gt;In Kotlin, which is also typed and expression-oriented, the answer is,
+apparently, &lt;code&gt;{Comparable&amp;lt;CapturedType(*)&amp;gt; &amp;amp; java.io.Serializable}&lt;/code&gt;. Which I have
+to say does not seem &lt;em&gt;super&lt;/em&gt; helpful.&lt;/p&gt;
+
+&lt;p&gt;I assume that the compiler goes looking for a shared supertype of the two branch
+types, String and Int. Since String and Int both happen to implement Comparable
+(and I guess some serialization interface), you get that as the common
+supertype.&lt;/p&gt;
+
+&lt;p&gt;In object-oriented languages with subtyping and where the type hierarchy forms a
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Lattice_(order)&quot;&gt;lattice&lt;/a&gt;, this common supertype is the least upper bound, and it&amp;rsquo;s a natural
+answer to the problem. It shows up in other languages when type-checking
+conditional &lt;code&gt;?:&lt;/code&gt; expressions and a few other places.&lt;/p&gt;
+
+&lt;p&gt;It works, but, as we can see in the Kotlin example here, it doesn&amp;rsquo;t always
+produce intuitive or useful results. More to the point, one of the &lt;em&gt;other&lt;/em&gt;
+features I jettisoned from my scripting language is subtyping, so LUB is off
+the table.&lt;/p&gt;
+
+&lt;p&gt;Without subtyping, every type is disjoint: a value of one type is never a value
+of any other type too. That means that if the two branches of an &lt;code&gt;if&lt;/code&gt; have
+different types, then there is no possible type I can infer that contains all of
+their values. The only other response is to make it a type error.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s the next rule: &lt;strong&gt;If the branches have different types, it&amp;rsquo;s a compile
+error.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Imperative ifs and unused values&lt;/h2&gt;
+
+&lt;p&gt;That rule does work: It&amp;rsquo;s basically SML&amp;rsquo;s rule for &lt;code&gt;if&lt;/code&gt; expressions. But I want
+my scripting language to feel familiar to users programming in an imperative
+style. Consider:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;daysNotInLove&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;isFriday&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;in love&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;daysNotInLove&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here, the two branches have different types. The then branch has type String
+because in my language, &lt;code&gt;print()&lt;/code&gt; returns its argument. (That makes it handy for
+stuffing some debug printing in the middle of an expression.) The else branch
+has type Int because an assignment expression yields the assigned value.&lt;/p&gt;
+
+&lt;p&gt;According to the previous rule, this is a type error because we don&amp;rsquo;t know what
+type of value the &lt;code&gt;if&lt;/code&gt; expression evaluates to.&lt;/p&gt;
+
+&lt;p&gt;But it doesn&amp;rsquo;t &lt;em&gt;matter&lt;/em&gt; since the &lt;code&gt;if&lt;/code&gt;&amp;rsquo;s value isn&amp;rsquo;t being used anyway. There&amp;rsquo;s
+no need for the compiler to yell at you, and code like this turns out to be very
+common in practice.&lt;/p&gt;
+
+&lt;p&gt;To address this, the type checker takes some of the surrounding context into
+account. When an &lt;code&gt;if&lt;/code&gt; expression appears in a location where its value won&amp;rsquo;t be
+used, then it&amp;rsquo;s no longer an error for the branches to have different types. How
+complex is tracking that context? Not too bad, actually. There are a handful of
+cases:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;In a block or function body where you have a sequence of expressions, the
+result is the value of the last expression. The values of all of the
+preceding expressions are discarded. So in an expression sequence, all but
+the last expression are in a &amp;ldquo;value not used&amp;rdquo; context.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Like other expression-oriented languages, functions in my language
+implicitly return the value that the function body expression evaluates to:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;three&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;t&quot;&gt;Int&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;About to return three...&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;onInit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;i&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;i&quot;&gt;three&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Prints &amp;quot;About to return three...&amp;quot; then &amp;quot;3&amp;quot;.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;But if a function has no return type (the same as &lt;code&gt;void&lt;/code&gt; or unit in other
+languages), it doesn&amp;rsquo;t return a value. In that case, even the last
+expression in the body is a &amp;ldquo;value not used&amp;rdquo; context.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Loop expressions don&amp;rsquo;t produce values, so their body is always a &amp;ldquo;value not
+used&amp;rdquo; context. (I&amp;rsquo;m toying with the idea of allowing &lt;code&gt;break&lt;/code&gt; expressions to
+yield a value from the loop, but they don&amp;rsquo;t right now.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Whenever an &lt;code&gt;if&lt;/code&gt; or &lt;code&gt;match&lt;/code&gt; expression is in a &amp;ldquo;value not used&amp;rdquo; context,
+then we push that context into the branches too. Likewise with the
+right-hand side of &lt;code&gt;and&lt;/code&gt; and &lt;code&gt;or&lt;/code&gt; logic operators since those are control
+flow expressions to.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. After I came up with this rule, I did some poking around and it seems
+like Kotlin does something similar. It frames it by saying that when you use an
+&lt;code&gt;if&lt;/code&gt; &amp;ldquo;as an expression&amp;rdquo; then the two branches must have the same type. That&amp;rsquo;s
+roughly the distinction I&amp;rsquo;m making here too: when an &lt;code&gt;if&lt;/code&gt; appears in a
+statement-like position where its value is discarded, then the branches can
+disagree.&lt;/p&gt;
+
+&lt;h2&gt;Missing else&lt;/h2&gt;
+
+&lt;p&gt;This rule allows us to support an even more important flavor of &lt;code&gt;if&lt;/code&gt; expressions
+that are common in imperative code: those without &lt;code&gt;else&lt;/code&gt; clauses. In SML and
+some other functional languages, every &lt;code&gt;if&lt;/code&gt; expression &lt;em&gt;must&lt;/em&gt; have an &lt;code&gt;else&lt;/code&gt;
+clause because the presumption is that you will be using the value produced by
+the expression and you need a value even when the condition is false.&lt;/p&gt;
+
+&lt;p&gt;But in imperative code, it&amp;rsquo;s obviously common to have &lt;code&gt;if&lt;/code&gt;s whose main purpose
+is a side effect and where an &lt;code&gt;else&lt;/code&gt; clause isn&amp;rsquo;t needed. In fact, when I
+analyzed a huge corpus of real-world Dart, I found that only about 20% of &lt;code&gt;if&lt;/code&gt;
+statements had &lt;code&gt;else&lt;/code&gt; branches.&lt;/p&gt;
+
+&lt;p&gt;Now that we understand when an &lt;code&gt;if&lt;/code&gt; expression is in a context where it&amp;rsquo;s value
+isn&amp;rsquo;t used, we can allow omitting &lt;code&gt;else&lt;/code&gt; branches those. The next rule is: &lt;strong&gt;An
+&lt;code&gt;if&lt;/code&gt; expression can can omit the else branch when in a context where its value
+isn&amp;rsquo;t used.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Exiting branches&lt;/h2&gt;
+
+&lt;p&gt;We&amp;rsquo;re almost there. It&amp;rsquo;s starting to feel like we really are type-checking an
+imperative language, not ML in BASIC&amp;rsquo;s clothing. I coded this up and
+successfully wrote some little example programs. It was starting to feel like a
+real typed language!&lt;/p&gt;
+
+&lt;p&gt;I could stop here, but there&amp;rsquo;s one last bit of type checking logic for &lt;code&gt;if&lt;/code&gt;
+expressions. I haven&amp;rsquo;t decided if it&amp;rsquo;s worth keeping. Consider:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;onInit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;love&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;isFriday&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;in love&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When &lt;code&gt;isFriday&lt;/code&gt; is true, then this initializes &lt;code&gt;love&lt;/code&gt; with the string &amp;ldquo;in love&amp;rdquo;.
+When &lt;code&gt;isFriday&lt;/code&gt; is false, then the &lt;code&gt;return&lt;/code&gt; exits from the function entirely so
+&lt;code&gt;love&lt;/code&gt; never gets initialized at all. So even though these branches don&amp;rsquo;t
+evaluate to the same type, &lt;code&gt;love&lt;/code&gt; is always initialized with a String. This code
+should be fine.&lt;/p&gt;
+
+&lt;p&gt;Or, at least, it should be &lt;em&gt;sound&lt;/em&gt; according to the type system. Whether this is
+&lt;em&gt;good style&lt;/em&gt; is definitely open for debate. I could probably not allow code like
+this. But my default stance is to be as permissive as possible without breaking
+soundness, and this is a corner where I can be.&lt;/p&gt;
+
+&lt;p&gt;The trick is that expressions like &lt;code&gt;break&lt;/code&gt;, &lt;code&gt;return&lt;/code&gt;, and &lt;code&gt;throw&lt;/code&gt; are special. While they are expressions &lt;em&gt;grammatically&lt;/em&gt;, they don&amp;rsquo;t actually evaluate to values. If you do:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vgs&quot; data-lang=&quot;vgs&quot;&gt;&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;i&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That &lt;code&gt;x&lt;/code&gt; never gets initialized. A &lt;code&gt;return&lt;/code&gt; expression always jumps out of the
+surrounding code instead of producing a value. Languages that have expressions
+which can do control flow model this by giving these expressions a special type
+variously called &lt;a href=&quot;https://en.wikipedia.org/wiki/Bottom_type&quot;&gt;&amp;ldquo;bottom&amp;rdquo;, &lt;code&gt;⊥&lt;/code&gt; (&amp;ldquo;up tack&amp;rdquo;), &lt;code&gt;Never&lt;/code&gt;, &lt;code&gt;noreturn&lt;/code&gt;, etc&lt;/a&gt;.
+This type means &amp;ldquo;You&amp;rsquo;re never gonna get a value from me.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;When checking the two branches of an &lt;code&gt;if&lt;/code&gt; expression, if one branch has that
+special type (the compiler calls it &amp;ldquo;unreachable&amp;rdquo; right now), then we just use
+the type of the other branch for the &lt;code&gt;if&lt;/code&gt; expression&amp;rsquo;s type. That allows the
+above example to work. In the sample code I&amp;rsquo;ve written so far, it rarely comes
+into play. It&amp;rsquo;s usually more idiomatic to hoist that control flow out of the
+&lt;code&gt;if&lt;/code&gt; entirely. But we can type check it easily, so the language lets you do it.&lt;/p&gt;
+
+&lt;h2&gt;The rules altogether&lt;/h2&gt;
+
+&lt;p&gt;That&amp;rsquo;s where I&amp;rsquo;m at right now. It took me a few iterations to get to a point
+where all the &lt;code&gt;if&lt;/code&gt; expressions I expected to be able to write in my example
+programs actually type checked correctly but it seems pretty stable now. The
+rules are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;When an &lt;code&gt;if&lt;/code&gt; expression is in a context where its value is not used, then
+there is no restriction on what types the branches can have and we&amp;rsquo;re done.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Otherwise, there must be an &lt;code&gt;else&lt;/code&gt; branch and:&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If both branches have type &amp;ldquo;unreachable&amp;rdquo; then the &lt;code&gt;if&lt;/code&gt; expression&amp;rsquo;s type is
+also &amp;ldquo;unreachable&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If one branch has type &amp;ldquo;unreachable&amp;rdquo; then the &lt;code&gt;if&lt;/code&gt; expression&amp;rsquo;s type is the
+type of the other branch.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Otherwise, the two branches must have the same type and the type of the &lt;code&gt;if&lt;/code&gt;
+is that type.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+
+    <item>
+      <title>Stupid Dog</title>
+      <link>http://journal.stuffwithstuff.com/2022/02/13/stupid-dog/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2022/02/13/stupid-dog</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s my 30th birthday, and Megan and I are walking down Duval Street in Key
+West. There is a pet store here, which must be the most unlikely place for a pet
+store in all the world. Everyone here is a tourist. What kind of idiot buys a
+dog while on vacation?&lt;/p&gt;
+
+&lt;p&gt;You are in the window surrounded by other puppies. A tottering orange ball of
+fuzz with little triangular ears, like a fox who lost its tail. Ink-black eyes
+and round button nose. My wife, pregnant and hormonal, is instantly in love with
+you. We go inside to play with the puppies, because why would you not want to
+play with cute puppies while on vacation? You curl up in my cupped hands, calm
+and sleepy.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/01.jpg&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Megan gives me a lingering series of Significant Looks, which I do my best to
+ignore. I generally try to avoid making dumb decisions, and impulsively buying a
+puppy while on vacation eight hours away from home is clearly in that category.&lt;/p&gt;
+
+&lt;p&gt;I make a silent vow to never let Megan know that I also fell in love with you
+the moment I saw you.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;It&amp;rsquo;s the next day and Megan and I are sitting at a Burger King across the street
+from the pet store. She is presenting her case for why we should buy this very
+cute half-Pomeranian half-Yorkie puppy even though:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;We are on vacation.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We are expecting our first child in a couple of months and already have more
+than enough to keep us busy.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We have absolutely no plans or intentions on getting a pet. Our house is
+&lt;em&gt;tiny&lt;/em&gt; and barely fits the two of us and two cats, much less a baby and a
+dog.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We are an eight-hour drive from home.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You are, in fact, quite expensive.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Do I even need to write the numbered list here? It&amp;rsquo;s obviously a terrible idea.
+Family members that we&amp;rsquo;re vacationing with look at us like we are idiots when we
+say we&amp;rsquo;re considering it.&lt;/p&gt;
+
+&lt;p&gt;I think very very hard about my beloved first dog, Snickers, named because she
+was chocolate brown with swirls of white and caramel. She was a Sheltie, the
+smallest of her litter, a funny little runt of a puppy who entered my life when
+I was feeling small and cast out too.&lt;/p&gt;
+
+&lt;p&gt;When I was seven, I was playing in a neighbor&amp;rsquo;s front yard while she was out
+with me. I got distracted and heard a screech of tires behind me. When I turned
+around, Snickers was on her back motionless in the street. I carried her limp
+body all the way back to my house. The shocked look on my mother&amp;rsquo;s face when she
+saw me arrive, tears streaming down my face, broken dog in my arms, is my most
+vivid childhood memory.&lt;/p&gt;
+
+&lt;p&gt;I am the kind of person who analyzes 100 steps ahead. Getting a puppy means
+buying a ticket for the whole ride, including the end of it, in whatever form it
+takes. I am choosing to break my own heart. What if it&amp;rsquo;s not worth all that
+pain?&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Megan is driving us north from Miami. You are sleeping in my lap, impossibly
+warm, cold wet nose pressed against my arm. We talk about names. You almost end
+up &amp;ldquo;Dorito&amp;rdquo; because of your triangular orange ears, but it doesn&amp;rsquo;t stick.
+Instead, you become &amp;ldquo;Ginny&amp;rdquo;. Not for Ginny Weasely like everyone assumes but
+short for the liquor genever.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;When we buy you, I also buy some books on dog training because I am the kind of
+person who wants to be a very good dog owner that follows all the dog owning
+rules. Rule #1 is crate training starts immediately. A dog won&amp;rsquo;t respect you as
+the pack leader if they are free to sleep where you do. They&amp;rsquo;ll think they run
+the pack.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s late at night by the time we get home, and all the pet stores have closed.
+Next to the bed, I try to improvise some crate-like thing for your first night
+involving cardboard boxes, a cooler, and anything else I can find around the
+house. You yowl in terror, or perhaps just disappointment at the poor
+accommodations.&lt;/p&gt;
+
+&lt;p&gt;Eventually, I give up. I pick you up and lay you on my chest. You are asleep
+instantly, tiny heart fluttering against mine.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You are taking your sweet time exploring every single corner of the jungle that
+is our backyard, looking for lizards. It is three o&amp;rsquo;clock in the morning. The
+green and brown anoles are sleeping under leaves where you never find them. I am
+shambling after you in pajama pants and old boots telepathically trying to get
+you to pee with every ounce of willpower I have.&lt;/p&gt;
+
+&lt;p&gt;I am keenly aware of my dwindling opportunities to get a good night&amp;rsquo;s sleep
+before the baby arrives. Yet here we are. Over the past few weeks Megan and I
+have mostly learned to tell the difference between your yowl that means &amp;ldquo;I am a
+puppy and don&amp;rsquo;t like being alone in this crate&amp;rdquo; and the yowl that means &amp;ldquo;My
+bladder is too small to last the night and I need to pee right now.&amp;rdquo; Sorry about
+the mistakes we made while figuring that out.&lt;/p&gt;
+
+&lt;p&gt;I pee in the yard too, hoping you&amp;rsquo;ll get the hint. I deeply regret ever seeing
+you in that pet store window. Half-awake, I have vivid fantasies of building a
+time machine, traveling back in time, and slapping myself in the middle of that
+Key West Burger King.&lt;/p&gt;
+
+&lt;p&gt;After patrolling the perimeter of the yard in tiny puppy steps, twice, you
+finally pee. I tell you what a good girl you are and give you a treat.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Because you are an adorable tiny puppy and I am a nerd with a DSLR, I take
+copious photos of you and upload them to Flickr. One day, I get an email from
+cuteoverload.com asking if they can share some of them. The next day, you are
+Internet famous. Millions of people look at your butthole.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/02.jpg&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;You are oblivious to your celebrity, as you are to most things in life.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;As you grow, your puppy fuzz is replaced by silk, still orange on top and white
+on the bottom like a fox. The whorls of fur behind your ears are the softest
+thing I have ever felt in my life. I run my fingers through them constantly, to
+your delight.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I take you on walks every day, still trying to be some kind of adequate dog
+owner. The training manuals say that to teach a puppy walk properly on a leash
+you should stop walking whenever the dog pulls against it. Then wait patiently
+until the dog turns and makes eye contact with you. That way, they learn that
+you are in charge of walking and that pulling means the walk ends.&lt;/p&gt;
+
+&lt;p&gt;It takes us half an hour to walk a single block. Despite repeating this process
+hundreds of times, you fail to make the mental connection that if you stop
+yanking on the leash then we can actually walk where you want to go. You never,
+ever stop pulling on the damn leash.&lt;/p&gt;
+
+&lt;p&gt;I start a running joke of whispering insults in your ear that sound like terms
+of endearment. It&amp;rsquo;s not like you speak English, so when I say, &amp;ldquo;I hate your
+face,&amp;rdquo; all you hear is the caring tone I use to say it. &amp;ldquo;You&amp;rsquo;re so fucking
+stupid,&amp;rdquo; I coo into your ear. I rub your fuzzy belly to make sure you know how
+much I love your stupid face.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/03.jpg&quot;&gt;
+&lt;/figure&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Five weeks earlier than expected, Megan and I become parents. We haven&amp;rsquo;t had
+time to set up a nursery yet so we hastily buy a bassinet. The first night the
+baby is home from the NICU, we realize there isn&amp;rsquo;t enough room at the foot of
+the bed for both the bassinet and the crate.&lt;/p&gt;
+
+&lt;p&gt;We let you sleep on the bed. You are immensely proud of earning a place on the
+bed while the new pink hairless dog is relegated to the funny crate.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You are listless and frothing at the mouth. Megan and I are terrified. You had
+been in the yard stalking all of the various animals that live in the
+barely-tamed-jungle that is Orlando. This time, you found a toad and you&amp;rsquo;d
+managed to get your mouth on it before I could get to you. Did it poison you?
+Are you going to die?&lt;/p&gt;
+
+&lt;p&gt;We rush you to the emergency vet. She takes your vitals while you sit there limp
+and apathetic. Your blood sugar is dangerously low. She gives you a treat. Then
+another. You immediately perk up. You&amp;rsquo;re fine, totally fine.&lt;/p&gt;
+
+&lt;p&gt;I remember that a couple of days prior I put my foot down and decided you were
+ready to graduate from soft puppy food to kibble which is better for your teeth.
+You were uninterested in the new food. I confidently told Megan, &amp;ldquo;If she gets
+hungry enough, she&amp;rsquo;ll eat. It&amp;rsquo;s not like she&amp;rsquo;s going to starve herself.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Apparently, somehow during the thousands of years humans spent turning a wolf
+into the strange-colored, tiny, eternally cub-like thing that you are, we broke
+your survival instinct. Sorry about that. We learn to mix some wet food into
+your kibble.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;It is something like four in the morning and Megan and I are pushing a baby
+stroller and a luggage cart across the SeaTac airport with you and the cats
+crammed in pet carriers perched on top of our suitcases. We&amp;rsquo;ve just flown 3,000
+miles to our new home. Our brilliant idea to take a red-eye flight so the baby
+would sleep through it failed disastrously. Megan and I spent the entire flight
+taking turns trying to get the baby to sleep on our laps. You seem to have
+mostly survived the flight intact. The cats were less thrilled by the
+experience.&lt;/p&gt;
+
+&lt;p&gt;We get to the hotel, and I take you out just as the sun starts to come up. The
+parking lot of an Extended Stay in Redmond is my first view of our new home in
+the Pacific Northwest. It&amp;rsquo;s fifty degrees and rainy. I&amp;rsquo;m beyond tired. You take
+your sweet time before finding an acceptable spot to pee.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;We are on PetFinder looking for a second dog. You are just so&amp;hellip; weird. Not food
+motivated. Impossible to train. High strung. Frankly, not very smart. You bark
+all the time, at everything. We tell ourselves that a second dog will give you
+company when we&amp;rsquo;re out. They will teach you how to dog like a normal dog.&lt;/p&gt;
+
+&lt;p&gt;We find a part-Chihuahua part rat terrier that is, in defiance of everything I
+understand about genetics, practically your twin. We bring you to meet him at a
+dog park to see if you get along. You bark a lot. He tolerates you admirably
+well. For the rest of your lives, you will be his asshole boss. You&amp;rsquo;ll eat the
+best parts out of his food bowl and steal his treats. When he tries to sit next
+to us on the couch, you will wedge yourself in the middle and glare at us both.&lt;/p&gt;
+
+&lt;p&gt;He will live in fear of your ire which is capricious and often. We name him
+Benny for &amp;ldquo;beignet&amp;rdquo; because he&amp;rsquo;s golden with a sprinkling of white on top.&lt;/p&gt;
+
+&lt;p&gt;Maybe they were right about the crate training.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;We rent a house out in the sticks. There is a green belt behind the yard and we
+get deer sometimes. Occasionally, we hear an owl hoot. Inexplicably, you are
+absolutely terrified of the sound. Megan and I hoot at you to tease you and you
+bark back at us, shivering in fear.&lt;/p&gt;
+
+&lt;p&gt;Later, we buy a house with a fenced in back yard. You stand proudly in the grass
+waiting for me to make eye contact with you. The moment I do, you throw your
+head back in delight and run full tilt to me. Over and over again from Megan to
+me and back. You wear yourself out and lay in the sun panting &amp;ldquo;keh keh keh&amp;rdquo;.
+When you snuggle with us on the couch later, you still smell like dirt and
+grass.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I am in the basement awkwardly taking photos of myself. I&amp;rsquo;m speaking at a
+conference and they asked for a headshot. You wander in and I pick you up and
+start taking pictures of us together. They are my favorite photos of myself.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/04.jpg&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When I finish my writing my book, I put one of them on the back cover. I get
+email from readers telling me how delighted they are with the cover.&lt;/p&gt;
+
+&lt;p&gt;I set that photo as my profile image on all of my various accounts. When ride
+share drivers pick me up, they joyfully tell me in not-great English that they
+love my dog. You are still a celebrity.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I am in bed staring at the dark ceiling, doing math in my head. Tonight, you are
+the same age in dog years that I am in real years. From this moment on, you are
+older than me. I picture you racing ahead of me into the future. I try not to
+think of where that path leads or when you&amp;rsquo;ll get there.&lt;/p&gt;
+
+&lt;p&gt;You are sleeping stretched out, pressed against my thigh, trying to get every
+square millimeter of contact that you can. I run my fingers through the silky
+fur on your back, feel your breath rise and fall.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;We rent a cabin on the Pacific coast. You spend the first half of the drive
+shaking in excitement and anxiety, paws on the door looking out the window. The
+whole car smells like your horrid breath and Megan is coated in orange fur.
+Eventually you wear yourself out and pass out in her lap, head draped over her
+arm towards me. I rub the fur between your ears while I drive.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/05.jpg&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After settling in, we go explore tide pools. You sniff everything. Every rock,
+bit of kelp, rotting fish, even the wind. It&amp;rsquo;s cold and wet, but you don&amp;rsquo;t mind.
+When we get back to the cabin, I wipe sand and seaweed from your paws. You fall
+asleep in front of the fireplace.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;The vet is explaining to us that you have hyperthyroidism and congestive heart
+disease. That&amp;rsquo;s why you pee all the time&amp;mdash;often in the house&amp;mdash;and why you
+seem so tense and wound up all the time. Well, that and because you are half
+Pomeranian.&lt;/p&gt;
+
+&lt;p&gt;You get put on an expensive pill regimen which you will take for the rest of
+your life. Since you aren&amp;rsquo;t interested in food even on a good day, getting you
+to take them will be a constant battle. At least the peeing inside gets
+marginally better. The barking does not.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;I start writing a second book. I work on my laptop on the couch and you lay
+pressed against one leg the entire time. Once you&amp;rsquo;ve fallen asleep and let down
+your jealous guard over access to me, Benny claims the other side.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;figure&gt;
+  &lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/06.jpg&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We take another trip out to the Olympic Peninsula with friends. You spend much
+of it sleeping on the couch in front of the fire, like an overweight
+self-warming throw pillow. You are given affection from everyone, which you
+regard as your proper due. In return, you grace us with an endless series of
+farts that leave the cabin smelling like some sort of reptilian tire fire.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;It&amp;rsquo;s six o&amp;rsquo;clock in the morning. I am barely awake making coffee while you are
+outside for your morning consitutional. I hear a strange sort of yelp at the
+back door. I open it just in time to see you collapse. I scoop you up and run
+into the dining room, yelling out for Megan. I sit on the floor and cradle you,
+rocking back and forth. If these are your last moments, I want them to be
+peaceful.&lt;/p&gt;
+
+&lt;p&gt;I hold your limp body in my arms. Your tongue hangs out, lifeless and blue. I am
+seven years old again.&lt;/p&gt;
+
+&lt;p&gt;After an endless minute, you come back to us. Your back stiffens. Your legs poke
+out like a fainting goat and then relax. Your eyes start darting around and
+eventually you are able to pick your head up. Ten minutes later and you are back
+to normal, or at least as normal as you ever are. Honestly, a loss in cognitive
+function would be hard to detect.&lt;/p&gt;
+
+&lt;p&gt;The vet begins to use the phrase &amp;ldquo;congestive heart &lt;em&gt;failure&lt;/em&gt;&amp;rdquo; now. The pill
+regimen gets more complex. We throw out yet another rug too pee-stained to
+repair and decide to not have a rug in the dining room &amp;ldquo;for now&amp;rdquo;.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You are mostly enjoying your retirement. You spend so much time laying on the
+back of the couch so that you can look out the back window and bark at anyone
+with the audacity to walk on the sidewalk that the cushion loses its shape
+entirely.&lt;/p&gt;
+
+&lt;p&gt;We alternate between trying to give you as much affection as we can in the time
+we have left and cursing your name as we discover another part of the house
+ruined by your sneaky peeing. I discover right in the middle of a push-up, my
+nose an inch from the floor, that you and Benny have surreptitiously saturated
+every inch of the carpet in the office. Megan and I learn how to put in new
+flooring.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;We enter the phase where you take medications to cope with the side effects of
+other medications. You get over a dozen different pills a day, each on their own
+specific schedule. I print a chart and put it on the fridge to make sure I don&amp;rsquo;t
+miss any.&lt;/p&gt;
+
+&lt;p&gt;It is exhausting, but mostly for us. You are still relatively content, lazing
+around the house. Stealing Benny&amp;rsquo;s food. Barking at people outside the window.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/07.jpg&quot;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Sometimes, at night, you crawl between my legs on top of the blankets, pinning
+me and forcing me to sleep on my back. I tolerate it as best I can. You&amp;rsquo;re warm
+and your ears are still velvet-soft.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;One morning, I wake up to discover you have leaked little brown droplets all
+over the blanket. You are sitting up in bed, panting, clearly uncomfortable.
+(I&amp;rsquo;m not exactly comfortable with the situation myself.)&lt;/p&gt;
+
+&lt;p&gt;A couple of days later, you faint again. Perhaps a stroke. Dog.exe has stopped
+working. When you finish your reboot cycle, you aren&amp;rsquo;t the same. You don&amp;rsquo;t
+recognize Megan and snap at her viciously. You stand stock still in the middle
+of the dining room floor, eyes glazed.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s clearly time. I feel an unexpected relief. For years, I have held a deep
+fear that I wouldn&amp;rsquo;t know when it was over. That I wasn&amp;rsquo;t adult enough to handle
+the responsibility of making the call. I&amp;rsquo;d procrastinate too long and leave you
+in misery or choose prematurely and cut your life short. Or I would just be
+wracked in anguish the whole time. Your last gift to me is a swift decline so
+that there&amp;rsquo;s no doubt.&lt;/p&gt;
+
+&lt;p&gt;I learn there is an entire category of vet-adjacent businesses that specialize
+in this &amp;ldquo;transition&amp;rdquo;. Early on a Tuesday morning, I start calling them to see
+who can come out today, as soon as possible, right now. The women who answer the
+phone have well-rehearsed, soothing voices. I stumble over my words. I don&amp;rsquo;t
+know the right social protocol to ask, &amp;ldquo;Can you please come kill my dog?&amp;rdquo;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You are sitting next to me on the couch, pressed warmly against my side like
+always. You&amp;rsquo;ve mostly calmed down but are sitting up and tense. A kind woman
+radiating Pacific Northwest Earth Mother vibes is sitting on the other side of
+you with a small array of syringes in front of her on the coffee table. We&amp;rsquo;ve
+tucked a blanket under you.&lt;/p&gt;
+
+&lt;p&gt;The kids have already said goodbye to you, tears pouring down their faces.
+Surprisingly, that turns out to be the hardest part, realizing how much you are
+part of their stories too.&lt;/p&gt;
+
+&lt;p&gt;The first shot makes you fall asleep. Literally, not in the &amp;ldquo;put to sleep&amp;rdquo;
+figurative sense. As the woman pushes the plunger, you loll slowly over onto my
+leg. You&amp;rsquo;re napping, head on my thigh, more comfortable than I&amp;rsquo;ve seen you in
+weeks. Like old times.&lt;/p&gt;
+
+&lt;p&gt;I run my fingers through the fur on your back, up to where it gets shorter and
+velvety between your ears, around your side where it gets thinner and silkier,
+to your chest where it thickens into whorls. I leave my fingers there where I
+can feel your heart beating. I want to &lt;em&gt;be here&lt;/em&gt; for it, to know that I was with
+you from beginning to end.&lt;/p&gt;
+
+&lt;p&gt;When the second shot goes in, your music stops.&lt;/p&gt;
+
+&lt;p&gt;With practiced timing, the woman has your body wrapped up in the blanket and out
+the door in minutes. The second the door closes, I feel the mask fall off my
+face and the tears start.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;It&amp;rsquo;s later that day. I&amp;rsquo;ve thrown out the pills, pill poppers, prescriptions,
+aftercare instructions, wrecked towels and blankets, every reminder of your
+failing health.&lt;/p&gt;
+
+&lt;p&gt;I am out for a walk to get out of the house. It hits me a few blocks away. The
+answer to the question I carried since the day we got you. Will the life we have
+with you outweigh the pain at the end? Will it be worth it?&lt;/p&gt;
+
+&lt;p&gt;It is. Every minute.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;It&amp;rsquo;s a couple of years later. Your ashes are in a little box in my nightstand. I
+remember the stress and exhaustion of the last few months of your life, but it
+feels vague, like I remember the stories I told people about it but not the
+actual experience.&lt;/p&gt;
+
+&lt;p&gt;I remember all of the good moments with you vividly. The feel of your fur
+between my fingers, your body pressed against my side, your horrific breath
+panting in my face. Megan and I talk about your antics.&lt;/p&gt;
+
+&lt;p&gt;I still miss you and your stupid face.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img class=&quot;framed&quot; src=&quot;/image/2022/02/08.jpg&quot;&gt;
+&lt;figcaption&gt;Ginny 2008&amp;hairsp;&amp;ndash;&amp;hairsp;2019&lt;/figcaption&gt;
+&lt;/figure&gt;
+</description>
+    </item>
+
+    
+
+  </channel>
+</rss>
