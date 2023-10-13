@@ -2,6 +2,6 @@
 make build
 git add :/
 echo "💬 Enter Commit Message: ⤵️"
-read message
+read -r message
 git commit -m "$message"
 git push
