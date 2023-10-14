@@ -331,6 +331,7 @@ article img {
   display: block;
   padding: 6px;
   margin: 6px auto;
+  max-width: 100%;
 }
 article img.framed {
   background: hsl(200, 50%, 97%);
