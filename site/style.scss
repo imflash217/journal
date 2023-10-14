@@ -431,6 +431,7 @@ article {
     display: block;
     padding: 6px;
     margin: 6px auto;
+    max-width: 100%;
 
     &.framed {
       background: $box-bg;
