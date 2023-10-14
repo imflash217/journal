@@ -6,8 +6,8 @@
     <atom:link href="http://journal.stuffwithstuff.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Programming, languages, compilers, games, etc.</description>
     <language>en-us</language>
-    <pubDate>Fri, 13 Oct 2023 23:33:02 GMT</pubDate>
-    <lastBuildDate>Fri, 13 Oct 2023 23:33:02 GMT</lastBuildDate>
+    <pubDate>Sat, 14 Oct 2023 16:49:18 GMT</pubDate>
+    <lastBuildDate>Sat, 14 Oct 2023 16:49:18 GMT</lastBuildDate>
 
 
     <item>
@@ -739,6 +739,16 @@ than I want to take on.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;d be more inclined to do sum types and destructuring, even though it feels a
 little weird in an imperative language, then do this kind of complex control
 flow analysis.&lt;/p&gt;
+</description>
+    </item>
+
+    <item>
+      <title>DETR</title>
+      <link>http://journal.stuffwithstuff.com/2023/03/25/detr/</link>
+      <pubDate>Sat, 25 Mar 2023 04:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2023/03/25/detr</guid>
+      <description>&lt;iframe src=&quot;https://arxiv.org/pdf/2111.06377.pdf&quot; width=&quot;100%&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt;&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQOe-n2Wjfhu9LlIWmH0Z34yEdPKYszsOFb-YlS6VhsQ2QeTaGDRrKgf9TjP0i0AfDsjoDo9Cx2Lh3m/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 </description>
     </item>
 
