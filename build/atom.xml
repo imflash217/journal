@@ -4,7 +4,7 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-10-14T16:52:14.568221Z</updated>
+  <updated>2023-10-14T16:58:35.260057Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
@@ -766,7 +766,9 @@ flow analysis.&lt;/p&gt;</content>
       <name>Robert Nystrom</name>
       <uri>http://journal.stuffwithstuff.com/</uri>
     </author>
-    <content type="html">&lt;iframe src=&quot;https://arxiv.org/pdf/2111.06377.pdf&quot; width=&quot;100%&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt;&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQOe-n2Wjfhu9LlIWmH0Z34yEdPKYszsOFb-YlS6VhsQ2QeTaGDRrKgf9TjP0i0AfDsjoDo9Cx2Lh3m/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</content>
+    <content type="html">&lt;iframe src=&quot;https://arxiv.org/pdf/2111.06377.pdf&quot; width=&quot;100%&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br&gt; &lt;/br&gt;&lt;/p&gt;&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQOe-n2Wjfhu9LlIWmH0Z34yEdPKYszsOFb-YlS6VhsQ2QeTaGDRrKgf9TjP0i0AfDsjoDo9Cx2Lh3m/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</content>
   </entry>
 
   <entry>
