@@ -4,7 +4,7 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-10-14T04:18:18.572249Z</updated>
+  <updated>2023-10-14T16:50:27.502039Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
@@ -754,6 +754,19 @@ than I want to take on.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;d be more inclined to do sum types and destructuring, even though it feels a
 little weird in an imperative language, then do this kind of complex control
 flow analysis.&lt;/p&gt;</content>
+  </entry>
+
+  <entry>
+    <id>http://journal.stuffwithstuff.com/2023/03/25/detr</id>
+    <link type="text/html" rel="alternate" href="http://journal.stuffwithstuff.com/2023/03/25/detr/"/>
+    <title>DETR</title>
+    <published>2023-03-25T00:00:00.000Z</published>
+    <updated>2023-03-25T00:00:00.000Z</updated>
+    <author>
+      <name>Robert Nystrom</name>
+      <uri>http://journal.stuffwithstuff.com/</uri>
+    </author>
+    <content type="html">&lt;iframe src=&quot;https://arxiv.org/pdf/2111.06377.pdf&quot; width=&quot;100%&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt;&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vQOe-n2Wjfhu9LlIWmH0Z34yEdPKYszsOFb-YlS6VhsQ2QeTaGDRrKgf9TjP0i0AfDsjoDo9Cx2Lh3m/embed?start=false&amp;loop=false&amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</content>
   </entry>
 
   <entry>
