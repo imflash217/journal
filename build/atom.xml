@@ -4,13 +4,26 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-10-15T22:19:19.993723Z</updated>
+  <updated>2023-10-15T22:19:58.385010Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
     <email>robert@stuffwithstuff.com</email>
   </author>
 
+
+  <entry>
+    <id>http://journal.stuffwithstuff.com/2023/10/15/rnn</id>
+    <link type="text/html" rel="alternate" href="http://journal.stuffwithstuff.com/2023/10/15/rnn/"/>
+    <title>What are Recurrent Neural Networks (RNN)?</title>
+    <published>2023-10-15T04:00:00.000Z</published>
+    <updated>2023-10-15T04:00:00.000Z</updated>
+    <author>
+      <name>Robert Nystrom</name>
+      <uri>http://journal.stuffwithstuff.com/</uri>
+    </author>
+    <content type="html">&lt;h2&gt;What is a RNN?&lt;/h2&gt;</content>
+  </entry>
 
   <entry>
     <id>http://journal.stuffwithstuff.com/2023/10/06/resume</id>

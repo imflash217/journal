@@ -6,9 +6,19 @@
     <atom:link href="http://journal.stuffwithstuff.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Programming, languages, compilers, games, etc.</description>
     <language>en-us</language>
-    <pubDate>Sun, 15 Oct 2023 22:19:19 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Oct 2023 22:19:19 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Oct 2023 22:19:58 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Oct 2023 22:19:58 GMT</lastBuildDate>
 
+
+    <item>
+      <title>What are Recurrent Neural Networks (RNN)?</title>
+      <link>http://journal.stuffwithstuff.com/2023/10/15/rnn/</link>
+      <pubDate>Sun, 15 Oct 2023 04:00:00 GMT</pubDate>
+      <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
+      <guid>http://journal.stuffwithstuff.com/2023/10/15/rnn</guid>
+      <description>&lt;h2&gt;What is a RNN?&lt;/h2&gt;
+</description>
+    </item>
 
     <item>
       <title><strong>My Journey</strong> till now!</title>
