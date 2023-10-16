@@ -6,8 +6,8 @@
     <atom:link href="http://journal.stuffwithstuff.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Programming, languages, compilers, games, etc.</description>
     <language>en-us</language>
-    <pubDate>Sun, 15 Oct 2023 22:19:58 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Oct 2023 22:19:58 GMT</lastBuildDate>
+    <pubDate>Mon, 16 Oct 2023 09:10:05 GMT</pubDate>
+    <lastBuildDate>Mon, 16 Oct 2023 09:10:05 GMT</lastBuildDate>
 
 
     <item>
@@ -16,7 +16,36 @@
       <pubDate>Sun, 15 Oct 2023 04:00:00 GMT</pubDate>
       <author>robert@stuffwithstuff.com (Robert Nystrom)</author>
       <guid>http://journal.stuffwithstuff.com/2023/10/15/rnn</guid>
-      <description>&lt;h2&gt;What is a RNN?&lt;/h2&gt;
+      <description>&lt;h2&gt;🤔 What is a RNN?&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;h2&gt;🔄 A brief History&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sharing parameters, which is the base of RNN, was devised in early 1980s.&lt;/li&gt;
+&lt;li&gt;Without parameter sharing, we could not &lt;strong&gt;generalize across sequences of different lenghts&lt;/strong&gt; &amp;amp; &lt;em&gt;across different positions in time&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Such sharing of information is particularly important when a specific piece of information can occur at multiple &lt;em&gt;positions&lt;/em&gt; in the input text. For eg:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&amp;ldquo;I went to Japan in &lt;strong&gt;2010&lt;/strong&gt;&quot;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&amp;ldquo;In &lt;strong&gt;2010&lt;/strong&gt;, I went to Japan&amp;rdquo;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;The idea of RNN is very similar to TDNN (time-delay neural networks).
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TDNN&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Uses convolution for &lt;em&gt;1D temporal sequence&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Uses the same &lt;em&gt;convolution-kernel&lt;/em&gt; across time.&lt;/li&gt;
+&lt;li&gt;Each member of the output is a function of small number of neighboring members in the input sequence&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RNN&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Uses the same &lt;em&gt;kernel&lt;/em&gt; across time.&lt;/li&gt;
+&lt;li&gt;Each member of the output is a function of all &lt;strong&gt;previous&lt;/strong&gt; members in the input sequence&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;RNN can be applied to &lt;em&gt;2D spatial data&lt;/em&gt; (eg. images) as well as &lt;em&gt;2D sequence data&lt;/em&gt; (eg. videos)&lt;/li&gt;
+&lt;li&gt;Learning a &lt;em&gt;single shared model&lt;/em&gt; allows generalization to sequence lengths that did not appear in training set, and allows the model to be estimated with far fewer training examples than would be required for a model &lt;em&gt;without&lt;/em&gt; parameter sharing.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
 

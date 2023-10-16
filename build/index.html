@@ -79,7 +79,36 @@
     >
   </h4>
 
-  <h2>What is a RNN?</h2> <div class="social">
+  <h2>🤔 What is a RNN?</h2>
+<hr />
+
+<h2>🔄 A brief History</h2>
+
+<ul>
+<li>Sharing parameters, which is the base of RNN, was devised in early 1980s.</li>
+<li>Without parameter sharing, we could not <strong>generalize across sequences of different lenghts</strong> &amp; <em>across different positions in time</em>.</li>
+<li>Such sharing of information is particularly important when a specific piece of information can occur at multiple <em>positions</em> in the input text. For eg:
+<ul>
+<li><em>&ldquo;I went to Japan in <strong>2010</strong>"</em></li>
+<li><em>&ldquo;In <strong>2010</strong>, I went to Japan&rdquo;</em></li>
+</ul></li>
+<li>The idea of RNN is very similar to TDNN (time-delay neural networks).
+<ul>
+<li><strong>TDNN</strong>:
+<ul>
+<li>Uses convolution for <em>1D temporal sequence</em>.</li>
+<li>Uses the same <em>convolution-kernel</em> across time.</li>
+<li>Each member of the output is a function of small number of neighboring members in the input sequence</li>
+</ul></li>
+<li><strong>RNN</strong>:
+<ul>
+<li>Uses the same <em>kernel</em> across time.</li>
+<li>Each member of the output is a function of all <strong>previous</strong> members in the input sequence</li>
+</ul></li>
+</ul></li>
+<li>RNN can be applied to <em>2D spatial data</em> (eg. images) as well as <em>2D sequence data</em> (eg. videos)</li>
+<li>Learning a <em>single shared model</em> allows generalization to sequence lengths that did not appear in training set, and allows the model to be estimated with far fewer training examples than would be required for a model <em>without</em> parameter sharing.</li>
+</ul> <div class="social">
   <a
     href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/15/rnn//"
     target="_blank"
