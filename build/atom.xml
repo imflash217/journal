@@ -4,7 +4,7 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-10-16T09:10:05.841124Z</updated>
+  <updated>2023-10-16T21:54:26.419004Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
@@ -51,6 +51,8 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;RNN can be applied to &lt;em&gt;2D spatial data&lt;/em&gt; (eg. images) as well as &lt;em&gt;2D sequence data&lt;/em&gt; (eg. videos)&lt;/li&gt;
 &lt;li&gt;Learning a &lt;em&gt;single shared model&lt;/em&gt; allows generalization to sequence lengths that did not appear in training set, and allows the model to be estimated with far fewer training examples than would be required for a model &lt;em&gt;without&lt;/em&gt; parameter sharing.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tanh&lt;/code&gt;(hyperbolic tangent) activation function is traditionally used in RNN (owing to historical singificance too)&lt;/li&gt;
+&lt;li&gt;$a^{(t)} = b + W\cdot h^{(t-1)} + U\cdot x^{(t)}$&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 
@@ -66,7 +68,7 @@
     </author>
     <content type="html">&lt;h2&gt;🙏🏽 Introduction&lt;/h2&gt;
 
-&lt;p&gt;Machine learning engineer with experience in building end-to-end solutions for multilingual text document processing, speech recognition, audio source separation and computer vision. Designed deep learning architectures for audio source separation, speaker identification and speaker verification. Successfully led teams and projects in designing, developing, and monitoring ML models with PyTorch, MLFlow, DVC, Docker, Kubernetes, and AWS toolkits.&lt;/p&gt;
+&lt;p&gt;Machine learning engineer with experience in building end-to-end solutions for multilingual text document &lt;strong&gt;processing&lt;/strong&gt;, speech recognition, audio source separation and computer vision. Designed deep learning architectures for audio source separation, speaker identification and speaker verification. Successfully led teams and projects in designing, developing, and monitoring ML models with PyTorch, MLFlow, DVC, Docker, Kubernetes, and AWS toolkits.&lt;/p&gt;
 
 &lt;h2&gt;👨🏻‍💻 WORK EXPERIENCE&lt;/h2&gt;
 
