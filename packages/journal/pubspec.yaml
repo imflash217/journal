@@ -15,6 +15,8 @@ dependencies:
   sass: ^1.37.5
   typographic_markdown:
     path: ../typographic_markdown # TODO: Make normal dependency.
+  # flutter_tex: ^4.0.3+4 # for latex & math equations
+  tex: ^1.0.0
 dev_dependencies:
   lints: ^1.0.1
   test: ^1.17.8

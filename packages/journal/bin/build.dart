@@ -14,6 +14,8 @@ import 'package:journal/src/builder/tag_set_builder.dart';
 import 'package:journal/src/builder/template_builder.dart';
 import 'package:journal/src/builder/template_page_builder.dart';
 
+import 'package:tex/tex.dart';
+
 Future<void> main(List<String> arguments) async {
   var isServing = arguments.contains('--serve');
 

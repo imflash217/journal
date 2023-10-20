@@ -438,6 +438,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.5"
+  tex:
+    dependency: "direct main"
+    description:
+      name: tex
+      sha256: e11ae209596131cf5ea0e797cdc610852d5f06337edb80362eaf4c47f2f6790c
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   tuple:
     dependency: transitive
     description:
