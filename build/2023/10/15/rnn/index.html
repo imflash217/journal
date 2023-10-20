@@ -74,7 +74,7 @@
   <h4>
     <a href="archive">October 15, 2023</a>
     <span class="tags"
-      ><a href="/category/NLP">NLP</a></span
+      ><a href="/category/NLP💬">NLP💬</a></span
     >
   </h4>
 
@@ -108,7 +108,17 @@
 <li>RNN can be applied to <em>2D spatial data</em> (eg. images) as well as <em>2D sequence data</em> (eg. videos)</li>
 <li>Learning a <em>single shared model</em> allows generalization to sequence lengths that did not appear in training set, and allows the model to be estimated with far fewer training examples than would be required for a model <em>without</em> parameter sharing.</li>
 <li><code>tanh</code>(hyperbolic tangent) activation function is traditionally used in RNN (owing to historical singificance too)</li>
-<li>$a^{(t)} = b + W\cdot h^{(t-1)} + U\cdot x^{(t)}$</li>
+</ul>
+
+<p>$$
+a^{(t)} = b + W\cdot h^{(t-1)} + U\cdot x^{(t)}
+$$</p>
+
+<ul>
+<li>The runtimme is O(t) and cannot be reduced by parallelization because the forward pass is inherently sequential</li>
+<li>The momeory cost is also O(t) because the states computed during forward pass must be stored for consumption during backward pass</li>
+<li>RNNs are very POWERFUL but also very EXPENSIVE to train.</li>
+<li></li>
 </ul> <div class="social">
   <a
     href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/15/rnn//"
@@ -222,7 +232,7 @@
         <small class="post-count">2</small>
       </li>
       <li>
-        <a href="/category/NLP">NLP</a>
+        <a href="/category/NLP💬">NLP💬</a>
         <small class="post-count">1</small>
       </li>
       <li>

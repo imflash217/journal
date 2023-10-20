@@ -4,7 +4,7 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-10-16T21:55:35.028632Z</updated>
+  <updated>2023-10-20T11:17:01.848535Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
@@ -52,7 +52,17 @@
 &lt;li&gt;RNN can be applied to &lt;em&gt;2D spatial data&lt;/em&gt; (eg. images) as well as &lt;em&gt;2D sequence data&lt;/em&gt; (eg. videos)&lt;/li&gt;
 &lt;li&gt;Learning a &lt;em&gt;single shared model&lt;/em&gt; allows generalization to sequence lengths that did not appear in training set, and allows the model to be estimated with far fewer training examples than would be required for a model &lt;em&gt;without&lt;/em&gt; parameter sharing.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;tanh&lt;/code&gt;(hyperbolic tangent) activation function is traditionally used in RNN (owing to historical singificance too)&lt;/li&gt;
-&lt;li&gt;$a^{(t)} = b + W\cdot h^{(t-1)} + U\cdot x^{(t)}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$
+a^{(t)} = b + W\cdot h^{(t-1)} + U\cdot x^{(t)}
+$$&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The runtimme is O(t) and cannot be reduced by parallelization because the forward pass is inherently sequential&lt;/li&gt;
+&lt;li&gt;The momeory cost is also O(t) because the states computed during forward pass must be stored for consumption during backward pass&lt;/li&gt;
+&lt;li&gt;RNNs are very POWERFUL but also very EXPENSIVE to train.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 
