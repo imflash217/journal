@@ -218,7 +218,7 @@ article ol, article ul {
   margin-left: 24px;
 }
 article ol li {
-  font: bold 53px "Noto Serif";
+  font: bold 16px "Noto Serif";
 }
 article a, article a code {
   color: hsl(200, 100%, 30%);
