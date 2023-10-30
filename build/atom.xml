@@ -4,13 +4,59 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-10-20T11:18:24.469233Z</updated>
+  <updated>2023-10-30T23:40:58.699082Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
     <email>robert@stuffwithstuff.com</email>
   </author>
 
+
+  <entry>
+    <id>http://journal.stuffwithstuff.com/2023/10/30/cpp-var</id>
+    <link type="text/html" rel="alternate" href="http://journal.stuffwithstuff.com/2023/10/30/cpp-var/"/>
+    <title>C++: Introduction to Objects and Variables</title>
+    <published>2023-10-30T00:00:00.000Z</published>
+    <updated>2023-10-30T00:00:00.000Z</updated>
+    <author>
+      <name>Robert Nystrom</name>
+      <uri>http://journal.stuffwithstuff.com/</uri>
+    </author>
+    <content type="html">&lt;h2&gt;🤔 What is an object?&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;h2&gt;🔄 A brief History&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;h2&gt;📝 Quiz&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What is data?
+&lt;ul&gt;
+&lt;li&gt;answer&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;What is value?
+&lt;ol&gt;
+&lt;li&gt;.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;What is a variable?
+&lt;ol&gt;
+&lt;li&gt;.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;What is an identifier?
+&lt;ol&gt;
+&lt;li&gt;.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;What is a type?
+&lt;ol&gt;
+&lt;li&gt;.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;What is an integer?
+&lt;ol&gt;
+&lt;li&gt;.&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
 
   <entry>
     <id>http://journal.stuffwithstuff.com/2023/10/15/rnn</id>
