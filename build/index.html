@@ -56,94 +56,86 @@
   <header>
     <h1>
       <a
-        href="/2023/10/15/rnn/"
+        href="/2023/10/30/cpp-var/"
         rel="bookmark"
-        title="Permanent Link to What are Recurrent Neural Networks (RNN)?"
+        title="Permanent Link to C++: Introduction to Objects and Variables"
       >
-        What are Recurrent Neural Networks (RNN)?
+        C++: Introduction to Objects and Variables
       </a>
     </h1>
 
     <a
       class="older"
-      href="/2023/10/06/resume/"
-      title="Older Post &ldquo;<strong>My Journey</strong> till now!&rdquo;"
+      href="/2023/10/15/rnn/"
+      title="Older Post &ldquo;What are Recurrent Neural Networks (RNN)?&rdquo;"
       >&#8617;</a
     >
 
        </header>
   <h4>
-    <a href="archive">October 15, 2023</a>
+    <a href="archive">October 30, 2023</a>
     <span class="tags"
-      ><a href="/category/NLP">NLP</a></span
+      ><a href="/category/c++">c++</a></span
     >
   </h4>
 
-  <h2>🤔 What is a RNN?</h2>
+  <h2>🤔 What is an object?</h2>
 <hr />
 
 <h2>🔄 A brief History</h2>
+<hr />
 
-<ul>
-<li>Sharing parameters, which is the base of RNN, was devised in early 1980s.</li>
-<li>Without parameter sharing, we could not <strong>generalize across sequences of different lenghts</strong> &amp; <em>across different positions in time</em>.</li>
-<li>Such sharing of information is particularly important when a specific piece of information can occur at multiple <em>positions</em> in the input text. For eg:
-<ul>
-<li><em>&ldquo;I went to Japan in <strong>2010</strong>"</em></li>
-<li><em>&ldquo;In <strong>2010</strong>, I went to Japan&rdquo;</em></li>
-</ul></li>
-<li>The idea of RNN is very similar to TDNN (time-delay neural networks).
-<ul>
-<li><strong>TDNN</strong>:
-<ul>
-<li>Uses convolution for <em>1D temporal sequence</em>.</li>
-<li>Uses the same <em>convolution-kernel</em> across time.</li>
-<li>Each member of the output is a function of small number of neighboring members in the input sequence</li>
-</ul></li>
-<li><strong>RNN</strong>:
-<ul>
-<li>Uses the same <em>kernel</em> across time.</li>
-<li>Each member of the output is a function of all <strong>previous</strong> members in the input sequence</li>
-</ul></li>
-</ul></li>
-<li>RNN can be applied to <em>2D spatial data</em> (eg. images) as well as <em>2D sequence data</em> (eg. videos)</li>
-<li>Learning a <em>single shared model</em> allows generalization to sequence lengths that did not appear in training set, and allows the model to be estimated with far fewer training examples than would be required for a model <em>without</em> parameter sharing.</li>
-<li><code>tanh</code>(hyperbolic tangent) activation function is traditionally used in RNN (owing to historical singificance too)</li>
-</ul>
+<h2>📝 Quiz</h2>
 
-<p>$$
-a^{(t)} = b + W\cdot h^{(t-1)} + U\cdot x^{(t)}
-$$</p>
-
+<ol>
+<li>What is data?
 <ul>
-<li>The runtimme is O(t) and cannot be reduced by parallelization because the forward pass is inherently sequential</li>
-<li>The momeory cost is also O(t) because the states computed during forward pass must be stored for consumption during backward pass</li>
-<li>RNNs are very POWERFUL but also very EXPENSIVE to train.</li>
-<li></li>
-</ul> <div class="social">
+<li>answer</li>
+</ul></li>
+<li>What is value?
+<ol>
+<li>.</li>
+</ol></li>
+<li>What is a variable?
+<ol>
+<li>.</li>
+</ol></li>
+<li>What is an identifier?
+<ol>
+<li>.</li>
+</ol></li>
+<li>What is a type?
+<ol>
+<li>.</li>
+</ol></li>
+<li>What is an integer?
+<ol>
+<li>.</li>
+</ol></li>
+</ol> <div class="social">
   <a
-    href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/15/rnn//"
+    href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/30/cpp-var//"
     target="_blank"
   >
     <i class="fa fa-lg fa-reddit-square"></i>
   </a>
 
   <a
-    href="//news.ycombinator.com/submitlink?u=https://journal.stuffwithstuff.com/2023/10/15/rnn//&amp;t=What are Recurrent Neural Networks (RNN)?"
+    href="//news.ycombinator.com/submitlink?u=https://journal.stuffwithstuff.com/2023/10/30/cpp-var//&amp;t=C++: Introduction to Objects and Variables"
     target="_blank"
   >
     <i class="fa fa-lg fa-hacker-news"></i>
   </a>
 
   <a
-    href="//twitter.com/share?url=https://journal.stuffwithstuff.com/2023/10/15/rnn/&amp;text=%22What are Recurrent Neural Networks (RNN)?%22%20%40munificentbob"
+    href="//twitter.com/share?url=https://journal.stuffwithstuff.com/2023/10/30/cpp-var/&amp;text=%22C++: Introduction to Objects and Variables%22%20%40munificentbob"
     target="_blank"
   >
     <i class="fa fa-lg fa-twitter-square"></i>
   </a>
 
   <a
-    href="//www.facebook.com/share.php?u=https://journal.stuffwithstuff.com/2023/10/15/rnn/"
+    href="//www.facebook.com/share.php?u=https://journal.stuffwithstuff.com/2023/10/30/cpp-var/"
     target="_blank"
   >
     <i class="fa fa-lg fa-facebook-square"></i>
@@ -159,7 +151,7 @@ $$</p>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_shortname = "journal-stuffwithstuff";
-      var disqus_url = "https://journal.stuffwithstuff.com/2023/10/15/rnn/";
+      var disqus_url = "https://journal.stuffwithstuff.com/2023/10/30/cpp-var/";
 
       (function () {
         var dsq = document.createElement("script");
@@ -237,6 +229,10 @@ $$</p>
         <small class="post-count">1</small>
       </li>
       <li>
+        <a href="/category/c++">c++</a>
+        <small class="post-count">1</small>
+      </li>
+      <li>
         <a href="/category/computer-vision">computer-vision</a>
         <small class="post-count">1</small>
       </li>
@@ -255,7 +251,7 @@ $$</p>
     </ul>
 
     <p class="archive">
-      All <a href="archive">7 articles</a>&hellip;
+      All <a href="archive">8 articles</a>&hellip;
     </p>
 
 <p>
