@@ -6,8 +6,8 @@
     <atom:link href="http://journal.stuffwithstuff.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Programming, languages, compilers, games, etc.</description>
     <language>en-us</language>
-    <pubDate>Mon, 30 Oct 2023 23:56:11 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2023 23:56:11 GMT</lastBuildDate>
+    <pubDate>Sat, 04 Nov 2023 01:43:00 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Nov 2023 01:43:00 GMT</lastBuildDate>
 
 
     <item>
@@ -19,37 +19,83 @@
       <description>&lt;h2&gt;🤔 What is an object?&lt;/h2&gt;
 &lt;hr /&gt;
 
-&lt;h2&gt;🔄 A brief History&lt;/h2&gt;
+&lt;h2&gt;🔄 Types of variable initializations&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code&gt;initialization&lt;/code&gt; in C++ is very complex and supports various ways to initialize a variable as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Default initialization
+&lt;ul&gt;
+&lt;li&gt;When no initialization value is provided.&lt;/li&gt;
+&lt;li&gt;Leaves the variable with an &lt;em&gt;indeterminate&lt;/em&gt; value.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Eg.&lt;/em&gt; &lt;code&gt;int a;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Copy initialization
+&lt;ul&gt;
+&lt;li&gt;When an initializer is provided after the &lt;code&gt;=&lt;/code&gt; sign&lt;/li&gt;
+&lt;li&gt;This was inherited from C programming language&lt;/li&gt;
+&lt;li&gt;Copy assignment is also used whenever values are implicitly copied or converted. For eg., when passing arguments toa function by value, returning froma function by value or catching exceptions by value.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;E.g.&lt;/em&gt; &lt;code&gt;int b = 10;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Direct Initialization
+&lt;ul&gt;
+&lt;li&gt;Direct initialization is also used when a value is explicitly cast into another type&lt;/li&gt;
+&lt;li&gt;This is falling out of favor due to its similarity with &lt;code&gt;function&lt;/code&gt; definition like &lt;code&gt;int my_func()&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;E.g.&lt;/em&gt; &lt;code&gt;int c(20);&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;List Initializaation strategies:
+&lt;ul&gt;
+&lt;li&gt;Also known as &lt;code&gt;Uniform Initilization&lt;/code&gt; or &lt;code&gt;Brace Initialization&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The modern way to initialize in C++ is through using braces &lt;code&gt;{...}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;It disallows &lt;strong&gt;narrowing conversatations&lt;/strong&gt; i.e. this example will generate error:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;int height {4.5} // error because int type cannot safely hold float value&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;There are three types of list initilization&lt;/li&gt;
+&lt;li&gt;Direct List Initialization
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int d{30};&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Copy List Initialization
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int e = {40};&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Value Initialization
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;int f{};&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr /&gt;
 
 &lt;h2&gt;📝 Quiz&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;What is data?
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Data is any &lt;strong&gt;information&lt;/strong&gt; that can be stored, moved and processed by the computer&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;What is value?
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;The data stored by an object is called a value.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;What is a variable?
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;A variable is a named object.&lt;/li&gt;
 &lt;li&gt;A variable is the &lt;strong&gt;named&lt;/strong&gt; region of memory that can be used to store data.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;What is an identifier?
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;The name of a variable/object which is used to access it is called its identifier.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;What is a type?
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;A type is a meta-information that is used to tell the compiler about how to interpret the data stored in the momory.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;What is an integer?
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;It is one of the types supported by C++ programming language.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>

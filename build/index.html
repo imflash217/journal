@@ -82,37 +82,83 @@
   <h2>🤔 What is an object?</h2>
 <hr />
 
-<h2>🔄 A brief History</h2>
+<h2>🔄 Types of variable initializations</h2>
+
+<p>The <code>initialization</code> in C++ is very complex and supports various ways to initialize a variable as follows:</p>
+
+<ul>
+<li>Default initialization
+<ul>
+<li>When no initialization value is provided.</li>
+<li>Leaves the variable with an <em>indeterminate</em> value.</li>
+<li><em>Eg.</em> <code>int a;</code></li>
+</ul></li>
+<li>Copy initialization
+<ul>
+<li>When an initializer is provided after the <code>=</code> sign</li>
+<li>This was inherited from C programming language</li>
+<li>Copy assignment is also used whenever values are implicitly copied or converted. For eg., when passing arguments toa function by value, returning froma function by value or catching exceptions by value.</li>
+<li><em>E.g.</em> <code>int b = 10;</code></li>
+</ul></li>
+<li>Direct Initialization
+<ul>
+<li>Direct initialization is also used when a value is explicitly cast into another type</li>
+<li>This is falling out of favor due to its similarity with <code>function</code> definition like <code>int my_func()</code></li>
+<li><em>E.g.</em> <code>int c(20);</code></li>
+</ul></li>
+<li>List Initializaation strategies:
+<ul>
+<li>Also known as <code>Uniform Initilization</code> or <code>Brace Initialization</code></li>
+<li>The modern way to initialize in C++ is through using braces <code>{...}</code></li>
+<li>It disallows <strong>narrowing conversatations</strong> i.e. this example will generate error:
+<ul>
+<li><em>e.g.</em> <code>int height {4.5} // error because int type cannot safely hold float value</code></li>
+</ul></li>
+<li>There are three types of list initilization</li>
+<li>Direct List Initialization
+<ul>
+<li><code>int d{30};</code></li>
+</ul></li>
+<li>Copy List Initialization
+<ul>
+<li><code>int e = {40};</code></li>
+</ul></li>
+<li>Value Initialization
+<ul>
+<li><code>int f{};</code></li>
+</ul></li>
+</ul></li>
+</ul>
 <hr />
 
 <h2>📝 Quiz</h2>
 
 <ol>
 <li>What is data?
-<ol>
+<ul>
 <li>Data is any <strong>information</strong> that can be stored, moved and processed by the computer</li>
-</ol></li>
+</ul></li>
 <li>What is value?
-<ol>
+<ul>
 <li>The data stored by an object is called a value.</li>
-</ol></li>
+</ul></li>
 <li>What is a variable?
-<ol>
+<ul>
 <li>A variable is a named object.</li>
 <li>A variable is the <strong>named</strong> region of memory that can be used to store data.</li>
-</ol></li>
+</ul></li>
 <li>What is an identifier?
-<ol>
+<ul>
 <li>The name of a variable/object which is used to access it is called its identifier.</li>
-</ol></li>
+</ul></li>
 <li>What is a type?
-<ol>
+<ul>
 <li>A type is a meta-information that is used to tell the compiler about how to interpret the data stored in the momory.</li>
-</ol></li>
+</ul></li>
 <li>What is an integer?
-<ol>
+<ul>
 <li>It is one of the types supported by C++ programming language.</li>
-</ol></li>
+</ul></li>
 </ol> <div class="social">
   <a
     href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/30/cpp-var//"
