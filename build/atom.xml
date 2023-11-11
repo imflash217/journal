@@ -4,13 +4,30 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-11-04T01:43:00.047504Z</updated>
+  <updated>2023-11-11T16:10:25.259654Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
     <email>robert@stuffwithstuff.com</email>
   </author>
 
+
+  <entry>
+    <id>http://journal.stuffwithstuff.com/2023/11/11/rust-basics</id>
+    <link type="text/html" rel="alternate" href="http://journal.stuffwithstuff.com/2023/11/11/rust-basics/"/>
+    <title>🦀 Rust: Variables&#8217; Basics</title>
+    <published>2023-11-11T00:00:00.000Z</published>
+    <updated>2023-11-11T00:00:00.000Z</updated>
+    <author>
+      <name>Robert Nystrom</name>
+      <uri>http://journal.stuffwithstuff.com/</uri>
+    </author>
+    <content type="html">&lt;h2&gt;Variables and immutability:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;When a variable is immutable, once a value is bound to a name, we can&amp;rsquo;t change the value.&lt;/li&gt;
+&lt;/ol&gt;</content>
+  </entry>
 
   <entry>
     <id>http://journal.stuffwithstuff.com/2023/10/30/cpp-var</id>
@@ -49,7 +66,7 @@
 &lt;li&gt;This is falling out of favor due to its similarity with &lt;code&gt;function&lt;/code&gt; definition like &lt;code&gt;int my_func()&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;E.g.&lt;/em&gt; &lt;code&gt;int c(20);&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;List Initializaation strategies:
+&lt;li&gt;List Initialization strategies:
 &lt;ul&gt;
 &lt;li&gt;Also known as &lt;code&gt;Uniform Initilization&lt;/code&gt; or &lt;code&gt;Brace Initialization&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;The modern way to initialize in C++ is through using braces &lt;code&gt;{...}&lt;/code&gt;&lt;/li&gt;

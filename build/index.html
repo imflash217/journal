@@ -56,133 +56,57 @@
   <header>
     <h1>
       <a
-        href="/2023/10/30/cpp-var/"
+        href="/2023/11/11/rust-basics/"
         rel="bookmark"
-        title="Permanent Link to C++: Introduction to Objects and Variables"
+        title="Permanent Link to 🦀 Rust: Variables&rsquo; Basics"
       >
-        C++: Introduction to Objects and Variables
+        🦀 Rust: Variables&rsquo; Basics
       </a>
     </h1>
 
     <a
       class="older"
-      href="/2023/10/15/rnn/"
-      title="Older Post &ldquo;What are Recurrent Neural Networks (RNN)?&rdquo;"
+      href="/2023/10/30/cpp-var/"
+      title="Older Post &ldquo;C++: Introduction to Objects and Variables&rdquo;"
       >&#8617;</a
     >
 
        </header>
   <h4>
-    <a href="archive">October 30, 2023</a>
+    <a href="archive">November 11, 2023</a>
     <span class="tags"
-      ><a href="/category/c++">c++</a></span
+      ><a href="/category/rust🦀">rust🦀</a></span
     >
   </h4>
 
-  <h2>🤔 What is an object?</h2>
-<hr />
-
-<h2>🔄 Types of variable initializations</h2>
-
-<p>The <code>initialization</code> in C++ is very complex and supports various ways to initialize a variable as follows:</p>
-
-<ul>
-<li>Default initialization
-<ul>
-<li>When no initialization value is provided.</li>
-<li>Leaves the variable with an <em>indeterminate</em> value.</li>
-<li><em>Eg.</em> <code>int a;</code></li>
-</ul></li>
-<li>Copy initialization
-<ul>
-<li>When an initializer is provided after the <code>=</code> sign</li>
-<li>This was inherited from C programming language</li>
-<li>Copy assignment is also used whenever values are implicitly copied or converted. For eg., when passing arguments toa function by value, returning froma function by value or catching exceptions by value.</li>
-<li><em>E.g.</em> <code>int b = 10;</code></li>
-</ul></li>
-<li>Direct Initialization
-<ul>
-<li>Direct initialization is also used when a value is explicitly cast into another type</li>
-<li>This is falling out of favor due to its similarity with <code>function</code> definition like <code>int my_func()</code></li>
-<li><em>E.g.</em> <code>int c(20);</code></li>
-</ul></li>
-<li>List Initializaation strategies:
-<ul>
-<li>Also known as <code>Uniform Initilization</code> or <code>Brace Initialization</code></li>
-<li>The modern way to initialize in C++ is through using braces <code>{...}</code></li>
-<li>It disallows <strong>narrowing conversatations</strong> i.e. this example will generate error:
-<ul>
-<li><em>e.g.</em> <code>int height {4.5} // error because int type cannot safely hold float value</code></li>
-</ul></li>
-<li>There are three types of list initilization</li>
-<li>Direct List Initialization
-<ul>
-<li><code>int d{30};</code></li>
-</ul></li>
-<li>Copy List Initialization
-<ul>
-<li><code>int e = {40};</code></li>
-</ul></li>
-<li>Value Initialization
-<ul>
-<li><code>int f{};</code></li>
-</ul></li>
-</ul></li>
-</ul>
-<hr />
-
-<h2>📝 Quiz</h2>
+  <h2>Variables and immutability:</h2>
 
 <ol>
-<li>What is data?
-<ul>
-<li>Data is any <strong>information</strong> that can be stored, moved and processed by the computer</li>
-</ul></li>
-<li>What is value?
-<ul>
-<li>The data stored by an object is called a value.</li>
-</ul></li>
-<li>What is a variable?
-<ul>
-<li>A variable is a named object.</li>
-<li>A variable is the <strong>named</strong> region of memory that can be used to store data.</li>
-</ul></li>
-<li>What is an identifier?
-<ul>
-<li>The name of a variable/object which is used to access it is called its identifier.</li>
-</ul></li>
-<li>What is a type?
-<ul>
-<li>A type is a meta-information that is used to tell the compiler about how to interpret the data stored in the momory.</li>
-</ul></li>
-<li>What is an integer?
-<ul>
-<li>It is one of the types supported by C++ programming language.</li>
-</ul></li>
+<li>When a variable is immutable, once a value is bound to a name, we can&rsquo;t change the value.</li>
 </ol> <div class="social">
   <a
-    href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/10/30/cpp-var//"
+    href="//www.reddit.com/submit?url=https://journal.stuffwithstuff.com/2023/11/11/rust-basics//"
     target="_blank"
   >
     <i class="fa fa-lg fa-reddit-square"></i>
   </a>
 
   <a
-    href="//news.ycombinator.com/submitlink?u=https://journal.stuffwithstuff.com/2023/10/30/cpp-var//&amp;t=C++: Introduction to Objects and Variables"
+    href="//news.ycombinator.com/submitlink?u=https://journal.stuffwithstuff.com/2023/11/11/rust-basics//&amp;t=🦀 Rust: Variables&amp;rsquo; Basics"
     target="_blank"
   >
     <i class="fa fa-lg fa-hacker-news"></i>
   </a>
 
   <a
-    href="//twitter.com/share?url=https://journal.stuffwithstuff.com/2023/10/30/cpp-var/&amp;text=%22C++: Introduction to Objects and Variables%22%20%40munificentbob"
+    href="//twitter.com/share?url=https://journal.stuffwithstuff.com/2023/11/11/rust-basics/&amp;text=%22🦀 Rust: Variables&amp;rsquo; Basics%22%20%40munificentbob"
     target="_blank"
   >
     <i class="fa fa-lg fa-twitter-square"></i>
   </a>
 
   <a
-    href="//www.facebook.com/share.php?u=https://journal.stuffwithstuff.com/2023/10/30/cpp-var/"
+    href="//www.facebook.com/share.php?u=https://journal.stuffwithstuff.com/2023/11/11/rust-basics/"
     target="_blank"
   >
     <i class="fa fa-lg fa-facebook-square"></i>
@@ -198,7 +122,7 @@
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       var disqus_shortname = "journal-stuffwithstuff";
-      var disqus_url = "https://journal.stuffwithstuff.com/2023/10/30/cpp-var/";
+      var disqus_url = "https://journal.stuffwithstuff.com/2023/11/11/rust-basics/";
 
       (function () {
         var dsq = document.createElement("script");
@@ -295,10 +219,14 @@
         <a href="/category/resume">resume</a>
         <small class="post-count">1</small>
       </li>
+      <li>
+        <a href="/category/rust🦀">rust🦀</a>
+        <small class="post-count">1</small>
+      </li>
     </ul>
 
     <p class="archive">
-      All <a href="archive">8 articles</a>&hellip;
+      All <a href="archive">9 articles</a>&hellip;
     </p>
 
 <p>
