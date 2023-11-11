@@ -4,7 +4,7 @@
   <title>journal.stuffwithstuff.com</title>
   <link href="http://journal.stuffwithstuff.com/"/>
   <link type="application/atom+xml" rel="self" href="http://journal.stuffwithstuff.com/atom.xml"/>
-  <updated>2023-11-11T16:09:49.138146Z</updated>
+  <updated>2023-11-11T16:12:12.218498Z</updated>
   <id>http://journal.stuffwithstuff.com/</id>
   <author>
     <name>Robert Nystrom</name>
@@ -25,6 +25,7 @@
     <content type="html">&lt;h2&gt;Variables and immutability:&lt;/h2&gt;
 
 &lt;ol&gt;
+&lt;li&gt;By default, variables are immutable.&lt;/li&gt;
 &lt;li&gt;When a variable is immutable, once a value is bound to a name, we can&amp;rsquo;t change the value.&lt;/li&gt;
 &lt;/ol&gt;</content>
   </entry>
